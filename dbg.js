@@ -1,4 +1,4 @@
-﻿const fs=require('fs');
+const fs=require('fs');
 const f=process.argv[2];
 const src=fs.readFileSync(f,'utf8');
 const m=/\}\(\s*([A-Za-z_$][\w$]*)\s*,\s*(0x[0-9a-fA-F]+)\s*\)/.exec(src);

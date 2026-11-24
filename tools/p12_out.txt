@@ -12,4 +12,4 @@
    . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
 Spawning `com.comingx.zanao`...
 Spawned `com.comingx.zanao`. Resuming main thread!
-[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'t': 'results', 'list': [{'tag': 'checkuser', 'errno': None, 'school_id': None, 'cid': None, 'json': 'null'}, {'tag': 'thread/admin/userinfo', 'errno': 10, 'errmsg': 'ÎŞ²Ù×÷È¨ÏŞ'}, {'tag': 'thread/admin/userthread', 'errno': 10, 'errmsg': 'ÎŞ²Ù×÷È¨ÏŞ'}]}} data: None
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'t': 'results', 'list': [{'tag': 'checkuser', 'errno': None, 'school_id': None, 'cid': None, 'json': 'null'}, {'tag': 'thread/admin/userinfo', 'errno': 10, 'errmsg': 'æ— æ“ä½œæƒé™'}, {'tag': 'thread/admin/userthread', 'errno': 10, 'errmsg': 'æ— æ“ä½œæƒé™'}]}} data: None

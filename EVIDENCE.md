@@ -1,4 +1,4 @@
-﻿# 校园集市 App — 他人 PII 可达性 · 实测记录
+# 校园集市 App — 他人 PII 可达性 · 实测记录
 
 设备：Redmi K60 (23113RKC6C) / Android 14 / KernelSU root / 目标 `com.comingx.zanao` 3.1.0 (versionCode 310)
 方式：frida spawn + 从 App 自身请求中取出会话 token + 调 `JniUtils.makeSign` 作为签名 oracle → 直接对

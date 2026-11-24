@@ -1,4 +1,4 @@
-﻿// probe2.js — 用 App 的 token，逐个变体试探 /thread/v2/list 等，定位 errno 3 的原因
+// probe2.js — 用 App 的 token，逐个变体试探 /thread/v2/list 等，定位 errno 3 的原因
 var TOKEN = null, ALIAS = null, DEVICE = null;
 var KEYS_JSON = {};
 

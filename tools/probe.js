@@ -1,4 +1,4 @@
-﻿// probe.js — 在 App 进程内完成：抓 token → 自己签名 → 直接发 HTTP → 打印结果
+// probe.js — 在 App 进程内完成：抓 token → 自己签名 → 直接发 HTTP → 打印结果
 // 依赖 frida CLI（Java bridge 在 CLI 下可用；Python API 17.x 无内置 Java bridge）
 
 var TOKEN = null, ALIAS = null, DEVICE = null, READY = false;

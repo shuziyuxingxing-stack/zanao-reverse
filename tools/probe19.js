@@ -1,4 +1,4 @@
-﻿// probe19.js — 用认证号 B 的会话（从 vivo 明文流量中抓到），读 B 自己的 certinfo
+// probe19.js — 用认证号 B 的会话（从 vivo 明文流量中抓到），读 B 自己的 certinfo
 // 签名在 Redmi 上本地算（makeSign 与账号无关），只读、只打码输出
 var TOKEN = '<= 从明文流量抓到的 B 的 token，已脱敏 >';
 var ALIAS = 'sysu';

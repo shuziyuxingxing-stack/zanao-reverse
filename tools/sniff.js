@@ -1,4 +1,4 @@
-﻿// sniff.js — 累积缓冲，抓明文 HTTP 请求头（含 X-Sc-Ah）+ body
+// sniff.js — 累积缓冲，抓明文 HTTP 请求头（含 X-Sc-Ah）+ body
 var hits = 0, bufs = {};
 function find(name) {
     try { if (Module.findGlobalExportByName) return Module.findGlobalExportByName(name); } catch (e) { }

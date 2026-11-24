@@ -1,4 +1,4 @@
-﻿function dump() {
+function dump() {
     Java.perform(function () {
         var out = [];
         Java.enumerateLoadedClasses({

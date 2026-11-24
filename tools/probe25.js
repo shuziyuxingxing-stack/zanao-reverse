@@ -1,4 +1,4 @@
-﻿// probe24.js — 写类 admin 接口鉴权探测
+// probe24.js — 写类 admin 接口鉴权探测
 // 目标一律用【不存在】的 id / uid（1、999999999999），
 // 目的只判断"鉴权是否在参数校验之前"，不给任何真实帖子和用户造成影响。
 var TOKEN = null, ALIAS = null, DEVICE = null;

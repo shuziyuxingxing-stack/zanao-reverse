@@ -1,4 +1,4 @@
-﻿// probe21.js — 解密 user_id 密文，再试 /mx/user/usershow 与 /mx/admin/userinfo
+// probe21.js — 解密 user_id 密文，再试 /mx/user/usershow 与 /mx/admin/userinfo
 var TOKEN = null, ALIAS = null, DEVICE = null;
 
 function sign(f) {
