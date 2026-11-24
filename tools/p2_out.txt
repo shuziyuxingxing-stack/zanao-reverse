@@ -1,0 +1,16 @@
+     ____
+    / _  |   Frida 17.24.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
+Spawning `com.comingx.zanao`...
+Spawned `com.comingx.zanao`. Resuming main thread!
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'t': 'token', 'alias': 'sysu'}} data: None
+message: {'type': 'send', 'payload': {'t': 'results', 'list': [{'v': 'A POST list ints', 'r': {'code': 200, 'body': '{"errno":3,"errmsg":"sorry, illegal request","data":[]}', 'ah': '451112D1D6AC33A87827D0D613627B78', 'td': '1794412981', 'nd': '76943543072992622776'}}, {'v': 'B POST list strings', 'r': {'code': 200, 'body': '{"errno":3,"errmsg":"sorry, illegal request","data":[]}', 'ah': 'F1875F95D8BDF9E102BCB4C214D7512D', 'td': '1794412981', 'nd': '29244481678126729449'}}, {'v': 'C POST user/info', 'r': {'code': 200, 'body': '{"errno":3,"errmsg":"sorry, illegal request","data":[]}', 'ah': 'A73A852ED2BB4BFB216515088A9F0988', 'td': '1794412982', 'nd': '34897529261116787909'}}, {'v': 'D GET user/certinfo', 'r': {'code': 200, 'body': '{"errno":3,"errmsg":"sorry, illegal request","data":[]}', 'ah': '85A2E20AA4689A4043C79A38555A9979', 'td': '1794412982', 'nd': '83145348383599752008'}}, {'v': 'E GET common/stp', 'r': {'code': 200, 'body': '{"errno":3,"errmsg":"sorry, illegal request","data":[]}', 'ah': 'FBBA555D04266617F3E9DFDBEEAB86A6', 'td': '1794412982', 'nd': '65866975208346492183'}}]}} data: None

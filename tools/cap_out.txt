@@ -1,0 +1,16 @@
+     ____
+    / _  |   Frida 17.24.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
+Spawning `com.comingx.zanao`...
+Spawned `com.comingx.zanao`. Resuming main thread!
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'type': 'hooked', 'msg': 'network hooked (2 overloads)'}} data: None
+message: {'type': 'send', 'payload': {'type': 'payload', 'fn': 'request', 'body': '{"id":3274,"module":"Network","method":"request","parameters":[{"type":4,"name":"3274_p_0","value":{"url":"http://api.app.zanao.com/app/devicereg","method":"post","header":{"X-Requested-With":"XMLHttpRequest","X-Sc-Alias":"sysu","X-Sc-Token":"UjBQL2ltM2xaeEhpc0VNZGdlQnJMOUZOdUt1cDRkNVR1dmhWd1h4TjI1dz0%3D","X-Sc-Client":"app","X-Sc-Device":"ffffffff-917e-ccde-ffff-ffffef05ac4a-627c815e10a06113","X-Sc-Platform":"Android","X-Sc-Hb-V":210,"X-Sc-Nt-V":310,"X-Sc-Version":"3.1.0","X-Sc-Nd":"00453173827732220735","X-Sc-Td":1794412000},"time_out":3,"data":{"reg_id":"QxeH2xJcOgQsPBZKXElHxpudsKVGdDgE1U1El2naKjEXfdEOjZKMsPvLpIe8cHhP","device_id":"ffffffff-917e-ccde-ffff-ffffef05ac4a-627c815e10a06113","ua":"Mozilla/5.0 (Linux; Android 14; 23113RKC6C Build/UKQ1.230804.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 __HB__NightMode-1","app_info":"{\\"os\\":\\"Android\\",\\"hbVersion\\":210,\\"name\\":\\"Ð£Ô°¼¯ÊÐ\\",\\"appVersionName\\":\\"3.1.0\\",\\"appVersionCode\\":310,\\"brand\\":\\"Redmi\\",\\"regId\\":\\"QxeH2xJcOgQsPBZKXElHxpudsKVGdDgE1U1El2naKjEXfdEOjZKMsPvLpIe8cHhP\\",\\"regType\\":\\"mipush\\",\\"state\\":\\"REGISTERED\\",\\"notificationPermission\\":\\"denied\\",\\"extra_reg_list\\":[],\\"deviceId\\":\\"ffffffff-917e-ccde-ffff-ffffef05ac4a-627c815e10a06113\\",\\"systemVersion\\":\\"34\\",\\"romName\\":\\"MIUI\\",\\"romVersion\\":\\"V816\\"}","notice_open":0},"file_path":"","content_type":"application/x-www-form-urlencoded","success":"[Function]::3274_p_0_success","fail":"[Function]::3274_p_0_fail","complete":"[Function]::3274_p_0_complete"}}]}'}} data: None

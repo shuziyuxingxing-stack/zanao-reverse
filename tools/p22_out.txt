@@ -1,0 +1,15 @@
+     ____
+    / _  |   Frida 17.24.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
+Spawning `com.comingx.zanao`...
+Spawned `com.comingx.zanao`. Resuming main thread!
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'t': 'results', 'list': [{'tid': '2185827252', 'nickname': '银河漫游者', 'is_anon': True, 'has_user_id': False}, {'tid': '2185825961', 'nickname': '啃面包的干饭人', 'is_anon': True, 'has_user_id': False}, {'tid': '2185825382', 'nickname': '烧鸭饭大王', 'has_user_id': True}, {'tid': '2185824452', 'nickname': '零食囤货专员', 'is_anon': True, 'has_user_id': False}, {'tid': '2185824364', 'nickname': '三兄弟', 'has_user_id': True}, {'tid': '2185824032', 'nickname': 'temp1', 'has_user_id': True}, {'tid': '2185823880', 'nickname': '拿铁爱好者', 'is_anon': True, 'has_user_id': False}, {'tid': '2185823369', 'nickname': '草莓招了a', 'contact_qq': '***', 'has_user_id': True}, {'tid': '2185819792', 'nickname': '小狗屁', 'has_user_id': True}, {'tid': '2185816269', 'nickname': 'hahha', 'has_user_id': True}, {'step': 'summary', 'threads': 10, 'contactHits': 1}]}} data: None

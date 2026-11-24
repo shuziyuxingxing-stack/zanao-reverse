@@ -1,0 +1,15 @@
+     ____
+    / _  |   Frida 17.24.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
+Spawning `com.comingx.zanao`...
+Spawned `com.comingx.zanao`. Resuming main thread!
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'t': 'results', 'list': [{'tag': 'rows', 'rows': [{'tid': '2185806324', 'anon': True, 'nick': '快乐小画家'}, {'tid': '2185805931', 'nick': '花花公子'}, {'tid': '2185805321', 'anon': True, 'nick': '哑光陶艺人'}, {'tid': '2185804826', 'nick': 'llllkx'}, {'tid': '2185803679', 'nick': '银质的夜莺烛台'}, {'tid': '2185802932', 'nick': 'xiaohu'}, {'tid': '2185802895', 'nick': '求中猪归还我古茗'}, {'tid': '2185800949', 'anon': True, 'nick': '零食囤货专员'}, {'tid': '2185800207', 'anon': True, 'nick': '灵魂按摩师'}, {'tid': '2185799571', 'anon': True, 'nick': '资深带节奏大师'}], 'target': None}]}} data: None

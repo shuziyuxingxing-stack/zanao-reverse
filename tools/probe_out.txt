@@ -1,0 +1,18 @@
+     ____
+    / _  |   Frida 17.24.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
+Spawning `com.comingx.zanao`...
+Spawned `com.comingx.zanao`. Resuming main thread!
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'tag': 'hooked', 'data': {'ok': True}}} data: None
+message: {'type': 'send', 'payload': {'tag': 'token', 'data': {'alias': 'sysu', 'device': 'ffffffff-917e-ccde-ffff-ffffef05ac4a-627c815e10a06113', 'token': 'UjBQL2ltM2xaeEhpc0VNZGdlQnJMOUZOdUt1cDRkNVR1dmhWd1h4TjI1dz0%3D'}}} data: None
+message: {'type': 'send', 'payload': {'tag': 'list', 'data': {'code': 200, 'errno': 3, 'raw': None}}} data: None
+message: {'type': 'send', 'payload': {'tag': 'list-empty', 'data': {'json': {'errno': 3, 'errmsg': 'sorry, illegal request', 'data': []}}}} data: None

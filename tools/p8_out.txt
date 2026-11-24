@@ -1,0 +1,15 @@
+     ____
+    / _  |   Frida 17.24.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
+Spawning `com.comingx.zanao`...
+Spawned `com.comingx.zanao`. Resuming main thread!
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'t': 'results', 'list': [{'tag': 'user/info', 'errno': 0, 'json': '{"errno":0,"errmsg":"","data":{"group_info":{"tip_title":"扫码进集市微信群\\n实时获取社区最新动态","tip_sub":"","qrcode_url":"http://b1.cdn.zanao.com/upload/2022/08/24/7gytlcescx7b2t7.png@!common","ch":"u5vcvh","bs":"sysu","live_code_url":"https://mp.weixin.qq.com/a/~~yhkgQ0vA2DQ~3-7C_aplu3qkKzWOZsel6Q~~","qrcode_img_path":"upload/2026/06/18/49t3z7mpbank3ad.jpeg"},"user_info":{"headimgurl":"http://b1.cdn.zanao.com/upload/2020/05/24/ynggpkheqq7ryb2.png@!sm_w100_h100","nickname":"东兴野","user_exp":"6","cert_status":"no","user_level":1,"user_today_exp":2,"user_level_exp":0,"user_level_title":"幼儿园","next_level_info":{"exp":10,"title":"小学生"},"today_active_exp":2,"today_active_exp_tip":"今日APP活跃 +2","exp_intro_show":true,"reg_days":3},"stat_show":true,"coop_url":"https://s.zanao.com/stp/business.phtml","rule_url":"https://s.zanao.com/stp/terms-rule.phtml","aboutme_url":"https://s.zanao.com/stp/about-us.phtml","scho'}, {'tag': 'myUid', 'uid': None}]}} data: None

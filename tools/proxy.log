@@ -1,0 +1,492 @@
+[15:34:53] proxy listening on 0.0.0.0:8899 (log=D:\onedrive\文档\deepseek-harness\default-workspace\zanao_x\tools\proxy.log)
+[15:38:03] === REQ POST http://api.app.zanao.com/app/devicereg
+[15:38:03]     X-Sc-Nd: 03727209842613685735
+[15:38:03]     X-Requested-With: XMLHttpRequest
+[15:38:03]     X-Sc-Td: 1794469084
+[15:38:03]     X-Sc-Hb-V: 210
+[15:38:03]     X-Sc-Nt-V: 310
+[15:38:03]     X-Sc-Alias: sysu
+[15:38:03]     X-Sc-Client: app
+[15:38:03]     X-Sc-Platform: Android
+[15:38:03]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:03]     X-Sc-Version: 3.1.0
+[15:38:03]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:03]     X-Sc-Ah: 279459B1B7DAA40E8D122DA6B69DAD91
+[15:38:03]     Content-Type: application/x-www-form-urlencoded
+[15:38:03]     Content-Length: 1138
+[15:38:03]     Host: api.app.zanao.com
+[15:38:03]     Connection: Keep-Alive
+[15:38:03]     Accept-Encoding: gzip
+[15:38:03]     User-Agent: okhttp/4.10.0
+[15:38:03]     BODY: device_id=00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8&app_info=%7B%22os%22%3A%22Android%22%2C%22hbVersion%22%3A210%2C%22name%22%3A%22%E6%A0%A1%E5%9B%AD%E9%9B%86%E5%B8%82%22%2C%22appVersionName%22%3A%223.1.0%22%2C%22appVersionCode%22%3A310%2C%22brand%22%3A%22vivo%22%2C%22regId%22%3A%22v2-CR25ny-L8bozvT2o_EeUrjb-QKnJ2FDMeHEfSskjDhvee3KqFo52GaHyXg%22%2C%22regType%22%3A%22vivopush%22%2C%22state%22%3A%22REGISTERED%22%2C%22notificationPermission%22%3A%22granted%22%2C%22extra_reg_list%22%3A%5B%7B%22regId%22%3A%22H6M2yWV3IyVJah1whFdcH%2B5fuXMzlD3sfE0UTNiRSAMArA53plLj0S4iIMP2aR0y%22%2C%22regType%22%3A%22mipush%22%7D%5D%2C%22deviceId%22%3A%2200000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8%22%2C%22systemVersion%22%3A%2236%22%2C%22romName%22%3A%22OriginOS%22%2C%22romVersion%22%3A%2216.0%22%7D&notice_open=1&ua=Mozilla%2F5.0%20%28Linux%3B%20Android%2016%3B%20V2465A%20Build%2FBP2A.250605.031.A3_V000L1%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F156.0.8078.47%20Mobile%20Safari%2F537.36%20__HB__NightMode-3&reg_id=v2-CR25ny-L8bozvT2o_EeUrjb-QKnJ2FDMeHEfSskjDhvee3KqFo52GaHyXg
+[15:38:03] === RESP 200 http://api.app.zanao.com/app/devicereg
+[15:38:03]     {"errno":0,"errmsg":"","data":{"account_login":false,"wx_login":true,"wx_mp_login":false}}
+[15:38:03] === REQ POST http://api.app.zanao.com/app/checkupgrade
+[15:38:03]     X-Sc-Nd: 43873352103250510531
+[15:38:03]     X-Requested-With: XMLHttpRequest
+[15:38:03]     X-Sc-Td: 1794469084
+[15:38:03]     X-Sc-Hb-V: 210
+[15:38:03]     X-Sc-Nt-V: 310
+[15:38:03]     X-Sc-Alias: sysu
+[15:38:03]     X-Sc-Client: app
+[15:38:03]     X-Sc-Platform: Android
+[15:38:03]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:03]     X-Sc-Version: 3.1.0
+[15:38:03]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:03]     X-Sc-Ah: 01C49F05A986FA92F7FB850055E3021E
+[15:38:03]     Content-Type: application/x-www-form-urlencoded
+[15:38:03]     Content-Length: 938
+[15:38:03]     Host: api.app.zanao.com
+[15:38:03]     Connection: Keep-Alive
+[15:38:03]     Accept-Encoding: gzip
+[15:38:03]     User-Agent: okhttp/4.10.0
+[15:38:03]     BODY: os=Android&device_id=00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8&app_info=%7B%22os%22%3A%22Android%22%2C%22hbVersion%22%3A210%2C%22name%22%3A%22%E6%A0%A1%E5%9B%AD%E9%9B%86%E5%B8%82%22%2C%22appVersionName%22%3A%223.1.0%22%2C%22appVersionCode%22%3A310%2C%22brand%22%3A%22vivo%22%2C%22regId%22%3A%22v2-CR25ny-L8bozvT2o_EeUrjb-QKnJ2FDMeHEfSskjDhvee3KqFo52GaHyXg%22%2C%22regType%22%3A%22vivopush%22%2C%22state%22%3A%22REGISTERED%22%2C%22notificationPermission%22%3A%22granted%22%2C%22extra_reg_list%22%3A%5B%7B%22regId%22%3A%22H6M2yWV3IyVJah1whFdcH%2B5fuXMzlD3sfE0UTNiRSAMArA53plLj0S4iIMP2aR0y%22%2C%22regType%22%3A%22mipush%22%7D%5D%2C%22deviceId%22%3A%2200000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8%22%2C%22systemVersion%22%3A%2236%22%2C%22romName%22%3A%22OriginOS%22%2C%22romVersion%22%3A%2216.0%22%7D&brand=vivo&reg_id=v2-CR25ny-L8bozvT2o_EeUrjb-QKnJ2FDMeHEfSskjDhvee3KqFo52GaHyXg&nt_version_code=310&hb_version_code=210
+[15:38:03] === RESP 200 http://api.app.zanao.com/app/checkupgrade
+[15:38:03]     {"errno":0,"errmsg":"","data":{"nt_need_upgrade":false,"nt_version_info":[],"hb_need_upgrade":false,"hb_version_info":[]}}
+[15:38:03] === REQ POST http://api.app.zanao.com/app/checkuser
+[15:38:03]     X-Sc-Nd: 85904945712542102580
+[15:38:03]     X-Requested-With: XMLHttpRequest
+[15:38:03]     X-Sc-Td: 1794469084
+[15:38:03]     X-Sc-Hb-V: 210
+[15:38:03]     X-Sc-Nt-V: 310
+[15:38:03]     X-Sc-Alias: sysu
+[15:38:03]     X-Sc-Client: app
+[15:38:03]     X-Sc-Platform: Android
+[15:38:03]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:03]     X-Sc-Version: 3.1.0
+[15:38:03]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:03]     X-Sc-Ah: C2AC94AF5F753E6ED66D2844CCE3A8FB
+[15:38:03]     Content-Type: application/x-www-form-urlencoded
+[15:38:03]     Content-Length: 8
+[15:38:03]     Host: api.app.zanao.com
+[15:38:03]     Connection: Keep-Alive
+[15:38:03]     Accept-Encoding: gzip
+[15:38:03]     User-Agent: okhttp/4.10.0
+[15:38:03]     BODY: cid=sysu
+[15:38:03] === RESP 200 http://api.app.zanao.com/app/checkuser
+[15:38:03]     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
+[15:38:03] === REQ GET http://api.app.zanao.com/course-api/course/mix/timeline
+[15:38:03]     X-Sc-Client: app
+[15:38:03]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:03]     X-Sc-Platform: android
+[15:38:03]     X-Sc-Hb-V: 210
+[15:38:03]     X-Sc-Nt-V: 310
+[15:38:03]     X-Sc-Version: 3.1.0
+[15:38:03]     X-Sc-Td: 1794469084
+[15:38:03]     X-Sc-Nd: JIdWewN16w
+[15:38:03]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:03] === REQ GET http://api.app.zanao.com/course-api/course/mix/timeline
+[15:38:03]     X-Sc-Client: app
+[15:38:03]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:03]     X-Sc-Alias: sysu
+[15:38:03]     X-Sc-Ah: 03374DD4558A5262EE1EF5828782DE68
+[15:38:03]     Host: api.app.zanao.com
+[15:38:03]     X-Sc-Platform: android
+[15:38:03]     X-Sc-Hb-V: 210
+[15:38:03]     X-Sc-Nt-V: 310
+[15:38:03]     Connection: Keep-Alive
+[15:38:03]     Accept-Encoding: gzip
+[15:38:03]     X-Sc-Version: 3.1.0
+[15:38:03]     User-Agent: okhttp/4.10.0
+[15:38:03]     X-Sc-Td: 1794469084
+[15:38:03]     X-Sc-Nd: p8uLNo4EMi
+[15:38:03]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:03]     X-Sc-Alias: sysu
+[15:38:03]     X-Sc-Ah: B74F0E4CB652F22DB183A0D48F53EA20
+[15:38:03]     Host: api.app.zanao.com
+[15:38:03]     Connection: Keep-Alive
+[15:38:03]     Accept-Encoding: gzip
+[15:38:03]     User-Agent: okhttp/4.10.0
+[15:38:04] === RESP 200 http://api.app.zanao.com/course-api/course/mix/timeline
+[15:38:04]     {"errno":0,"errmsg":"","data":{"first_day":"","first_day_time":0,"first_week_day":1,"first_monday_time":0,"cur_week_num":1,"section_hide_time":1200,"next_show_time":"18:00","list":[]}}
+[15:38:04] === RESP 200 http://api.app.zanao.com/course-api/course/mix/timeline
+[15:38:04]     {"errno":0,"errmsg":"","data":{"first_day":"","first_day_time":0,"first_week_day":1,"first_monday_time":0,"cur_week_num":1,"section_hide_time":1200,"next_show_time":"18:00","list":[]}}
+[15:38:04] === REQ GET http://api.app.zanao.com/?brand=vivo
+[15:38:04]     X-Sc-Nd: 03992751467456267110
+[15:38:04]     X-Requested-With: XMLHttpRequest
+[15:38:04]     X-Sc-Td: 1794469085
+[15:38:04]     X-Sc-Hb-V: 210
+[15:38:04]     X-Sc-Nt-V: 310
+[15:38:04]     X-Sc-Alias: sysu
+[15:38:04]     X-Sc-Client: app
+[15:38:04]     X-Sc-Platform: Android
+[15:38:04]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:04]     X-Sc-Version: 3.1.0
+[15:38:04]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:04]     X-Sc-Ah: B50D91FD1D0A303CFF18B10C17EF6F4A
+[15:38:04]     Host: api.app.zanao.com
+[15:38:04]     Connection: Keep-Alive
+[15:38:04]     Accept-Encoding: gzip
+[15:38:04]     User-Agent: okhttp/4.10.0
+[15:38:04] === RESP 200 http://api.app.zanao.com/?brand=vivo
+[15:38:04]     {"errno":0,"errmsg":"","data":{"banner_list":[],"cate_list":[{"cate_id":"101","name":"\u4e8c\u624b\u95f2\u7f6e","summary":"\u672c\u6821\u7ebf\u4e0b\u4ea4\u6613","icon_path":"upload\/2021\/05\/09\/uzueybckbjwpatc.png"},{"cate_id":"105","name":"\u6253\u542c\u6c42\u52a9","summary":"\u6709\u95ee\u9898\u5c31\u6709\u7b54\u6848","icon_path":"upload\/2021\/05\/09\/fuv9zhbqdwapv2h.png"},{"cate_id":"302","name":"\u604b\u7231\u4ea4\u53cb","summary":"\u627e\u642d\u5b50\u4ea4\u670b\u53cb","icon_path":"upload\/2021\/05\/09\/2fwddxxn9jnrkta.png"},{"cate_id":"108","name":"\u6821\u56ed\u8da3\u4e8b","summary":"\u5403\u74dc\u6700\u524d\u7ebf","icon_path":"upload\/2021\/05\/09\/evhpg2khayvyabx.png"},{"cate_id":"303","name":"\u517c\u804c\u62db\u8058","summary":"\u4f01\u4e1a\u627e\u7075\u5de5","icon_path":"upload\/2021\/09\/12\/wrye98cpdkpvfpw.png"},{"cate_id":"102","name":"\u6821\u56ed\u62db\u8058","summary":"\u6821\u62db\u53ca\u5ba3\u8bb2\u4f1a","icon_path":"upload\/2021\/05\/09\/yqaplxsy7cdxzgs.png"}],"course_open":true,"paotui_open":true,"paotui_mp_info":{"appid":"wxe450ac8deaa5c354","username":"gh_ef55fed38a04","path":"pages\/easypost\/easypost?tid=sysu","index_path":"pages\/index\/index?tid=sysu","easypost_path":"pages\/easypost\/easypost?tid=sysu"},"cur_week_num":10,"page_course_home":"course_home","course_select_conf":{"title":"\u8bfe\u7a0b\u8bc4\u4ef7","desc":"\u9009\u8bfe\u4e0d\u8e29\u5751","link_type":"app_page","app_page_conf":{"page":"remote","rC":{"url":"https:\/\/a.zanao.com\/course\/select\/list?cid=sysu","_meta":{"nightMode":0,"topBar":{"title":"\u9009\u8bfe\u4e13\u533a"}}}}},"course_select_open":true,"mx_small_open":true,"tutor_open":true,"tutor_cate_conf":{"cate_id":"tutor","name":"\u62db\u5bb6\u6559\u966a\u4f34"},"tutor_conf":{"list_empty_text":"\u6682\u65e0\u5bb6\u6559\u966a\u4f34\u9700\u6c42"},"extra_reg_types":["mipush","huaweipush"]}}
+[15:38:04] === REQ GET http://api.app.zanao.com/thread/toplist?
+[15:38:04]     X-Sc-Nd: 13836975742064043727
+[15:38:04]     X-Requested-With: XMLHttpRequest
+[15:38:04]     X-Sc-Td: 1794469085
+[15:38:04]     X-Sc-Hb-V: 210
+[15:38:04]     X-Sc-Nt-V: 310
+[15:38:04]     X-Sc-Alias: sysu
+[15:38:04]     X-Sc-Client: app
+[15:38:04]     X-Sc-Platform: Android
+[15:38:04]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:04]     X-Sc-Version: 3.1.0
+[15:38:04]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:04]     X-Sc-Ah: 0D31188E0D6F79BDF6A846280B8783B5
+[15:38:04]     Host: api.app.zanao.com
+[15:38:04] === REQ GET http://api.app.zanao.com/thread/hot?count=10&type=3
+[15:38:04]     X-Sc-Nd: 12391627996079716391
+[15:38:04]     X-Requested-With: XMLHttpRequest
+[15:38:04]     X-Sc-Td: 1794469085
+[15:38:04]     Connection: Keep-Alive
+[15:38:04]     Accept-Encoding: gzip
+[15:38:04]     User-Agent: okhttp/4.10.0
+[15:38:04]     X-Sc-Hb-V: 210
+[15:38:04]     X-Sc-Nt-V: 310
+[15:38:04]     X-Sc-Alias: sysu
+[15:38:04]     X-Sc-Client: app
+[15:38:04]     X-Sc-Platform: Android
+[15:38:04]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:04]     X-Sc-Version: 3.1.0
+[15:38:04]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:04]     X-Sc-Ah: 987B14E3B6BE0B1AA303017D89A27306
+[15:38:04]     Host: api.app.zanao.com
+[15:38:04]     Connection: Keep-Alive
+[15:38:04]     Accept-Encoding: gzip
+[15:38:04]     User-Agent: okhttp/4.10.0
+[15:38:04] === REQ GET http://api.app.zanao.com/thread/v2/list?with_reply=true&cate_id=latest&from_time=0&with_comment=true
+[15:38:04]     X-Sc-Nd: 23461775514911848077
+[15:38:04]     X-Requested-With: XMLHttpRequest
+[15:38:04]     X-Sc-Td: 1794469085
+[15:38:04]     X-Sc-Hb-V: 210
+[15:38:04]     X-Sc-Nt-V: 310
+[15:38:04]     X-Sc-Alias: sysu
+[15:38:04]     X-Sc-Client: app
+[15:38:04]     X-Sc-Platform: Android
+[15:38:04]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:04]     X-Sc-Version: 3.1.0
+[15:38:04]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:04]     X-Sc-Ah: 39AE5B76F65D3C47DA115F199ACA9FBF
+[15:38:04]     Host: api.app.zanao.com
+[15:38:04]     Connection: Keep-Alive
+[15:38:04]     Accept-Encoding: gzip
+[15:38:04]     User-Agent: okhttp/4.10.0
+[15:38:04] === REQ POST http://api.app.zanao.com/app/devicereg
+[15:38:04]     X-Sc-Nd: 62289929409859900913
+[15:38:04]     X-Requested-With: XMLHttpRequest
+[15:38:04]     X-Sc-Td: 1794469085
+[15:38:04]     X-Sc-Hb-V: 210
+[15:38:04]     X-Sc-Nt-V: 310
+[15:38:04]     X-Sc-Alias: sysu
+[15:38:04]     X-Sc-Client: app
+[15:38:04]     X-Sc-Platform: Android
+[15:38:04]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:04]     X-Sc-Version: 3.1.0
+[15:38:04]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:04]     X-Sc-Ah: F8A6671A4A892570820DCFFBD1BD81E7
+[15:38:04] === REQ GET http://api.app.zanao.com/msg/unum?
+[15:38:04]     X-Sc-Nd: 07731920382220443228
+[15:38:04]     Content-Type: application/x-www-form-urlencoded
+[15:38:04]     Content-Length: 1138
+[15:38:04]     Host: api.app.zanao.com
+[15:38:04]     X-Requested-With: XMLHttpRequest
+[15:38:04]     X-Sc-Td: 1794469085
+[15:38:04]     X-Sc-Hb-V: 210
+[15:38:04]     Connection: Keep-Alive
+[15:38:04]     Accept-Encoding: gzip
+[15:38:04]     User-Agent: okhttp/4.10.0
+[15:38:04]     X-Sc-Nt-V: 310
+[15:38:04]     X-Sc-Alias: sysu
+[15:38:04]     BODY: device_id=00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8&app_info=%7B%22os%22%3A%22Android%22%2C%22hbVersion%22%3A210%2C%22name%22%3A%22%E6%A0%A1%E5%9B%AD%E9%9B%86%E5%B8%82%22%2C%22appVersionName%22%3A%223.1.0%22%2C%22appVersionCode%22%3A310%2C%22brand%22%3A%22vivo%22%2C%22regId%22%3A%22v2-CR25ny-L8bozvT2o_EeUrjb-QKnJ2FDMeHEfSskjDhvee3KqFo52GaHyXg%22%2C%22regType%22%3A%22vivopush%22%2C%22state%22%3A%22REGISTERED%22%2C%22notificationPermission%22%3A%22granted%22%2C%22extra_reg_list%22%3A%5B%7B%22regId%22%3A%22H6M2yWV3IyVJah1whFdcH%2B5fuXMzlD3sfE0UTNiRSAMArA53plLj0S4iIMP2aR0y%22%2C%22regType%22%3A%22mipush%22%7D%5D%2C%22deviceId%22%3A%2200000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8%22%2C%22systemVersion%22%3A%2236%22%2C%22romName%22%3A%22OriginOS%22%2C%22romVersion%22%3A%2216.0%22%7D&notice_open=1&ua=Mozilla%2F5.0%20%28Linux%3B%20Android%2016%3B%20V2465A%20Build%2FBP2A.250605.031.A3_V000L1%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F156.0.8078.47%20Mobile%20Safari%2F537.36%20__HB__NightMode-3&reg_id=v2-CR25ny-L8bozvT2o_EeUrjb-QKnJ2FDMeHEfSskjDhvee3KqFo52GaHyXg
+[15:38:04]     X-Sc-Client: app
+[15:38:04]     X-Sc-Platform: Android
+[15:38:04]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:04]     X-Sc-Version: 3.1.0
+[15:38:04]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:04]     X-Sc-Ah: 6A8F8170313A09EC5AF3CC32A03B3457
+[15:38:04]     Host: api.app.zanao.com
+[15:38:04]     Connection: Keep-Alive
+[15:38:04]     Accept-Encoding: gzip
+[15:38:04]     User-Agent: okhttp/4.10.0
+[15:38:04] === RESP 200 http://api.app.zanao.com/thread/toplist?
+[15:38:04]     {"errno":0,"errmsg":"","data":{"list":[]}}
+[15:38:04] === RESP 200 http://api.app.zanao.com/thread/hot?count=10&type=3
+[15:38:04]     {"errno":0,"errmsg":"","data":{"list":[{"thread_id":"2185602207","cate_id":"108","img_paths":[],"title":"\u5bf9\u4f60\u5fc3\u751f\u7231\u6155\u4e86","content":"\u897f2-303\u5403\u8f66\u4ed4\u9762\u7684\u5973\u5b69\uff0c\u6211\u4e45\u4e45\u51dd\u671b\u4f60\u4e00\u9f13\u4e00\u9f13\u50cf\u5c0f\u677e\u9f20\u822c\u7684\u4fa7\u8138\uff0c\u4f60\u62ff\u7740\u7b77\u5b50\u5438\u6e9c\u8f66\u4ed4\u9762\u7684\u6a21\u6837\u4ee4\u4eba\u96be\u4ee5\u5fd8\u6000\uff0c\u6574\u95f4\u6559\u5ba4\u5f25\u6f2b\u7740\u8fd9\u80a1\u72ec\u4e00\u65e0\u4e8c\u7684\u82ac\u82b3\uff0c\u548c\u4f60\u7684\u5973\u4eba\u5473\u76f8\u5f97\u76ca\u5f70\uff0c\u4f60\u5c31\u8fd9\u6837\u7f8e\u800c\u4e0d\u81ea\u77e5\u5730\u6563\u53d1\u9b45\u529b\uff0c\u4e00\u767e\u591a\u4e2a\u4e0a\u665a\u8bfe\u7684\u540c\u5b66\u90fd\u6d78\u6ce1\u5728\u4f60\u5507\u9f7f\u95f4\u6ea2\u51fa\u7684\u99a5\u90c1\u9999\u6c14\u4e2d\u3002\u7136\u800c\uff0c\u6211\u788d\u4e8e\u8eab\u4efd\u4e0d\u80fd\u52c7\u6562\u8ffd\u6c42\u4f60\uff0c\u6211\u6709\u7740\u7279\u6b8a\u7684\u57fa\u56e0\uff0c\u6708\u5706\u4e4b\u591c\u4f1a\u5316\u4f5c\u5e7f\u4e1c\u53cc\u9a6c\u5c3e\uff0c\u6cbf\u7740\u4e0b\u6c34\u9053\u722c\u5230\u4f60\u7684\u5bbf\u820d\uff0c\u5e76\u4ece\u95e8\u7f1d\u6e9c\u8fdb\u6765\uff0c\u5faa\u7740\u4f60\u7684\u6c14\u5473\u94bb\u8fdb\u4f60\u7684\u88ab\u7a9d\u3002\u5982\u679c\u4e0d\u60f3\u88ab\u6211\u8fd9\u6837\u4f4e\u52a3\u7684\u751f\u7269\u8fd1\u8eab\uff0c\u90a3\u5c31\u95ed\u4e0a\u4e00\u76f4\u7838\u5427\u7684\u5634\u7aef\u7740\u4f60\u6c14\u5473\u5de8\u5927\u7684\u98df\u7269\u6eda\u51fa\u53bb\uff0c\u50bb\u53c9\uff0c\u5927\u5b66\u4e86\u8fd8\u6709\u8fd9\u79cd\u4f4e\u7d20\u8d28\u7684\u4eba\u3002","c_count":"43","view_count":8590,"l_count":"172","hongbao_price":"0","post_time":"\u6628\u592918:54","report_status":"0","finish_status":"10","hot_val":"191","hot_rank":1,"hot_rank_show":"01","view_show":true,"hot_text":"8.6K","headimgurl":"http:\/\/b1.cdn.zanao.com\/upload\/2025\/10\/08\/sbl8z2tuk558raj.jpg@!sm_w100_h100","nickname":"\u60c5\u610f\u7ef5\u7ef5\u67aa\u51fb","user_level":5,"user_level_title":"\u672c\u79d1\u751f","l_has":false,"cate_name":"\u6821\u56ed\u8da3\u4e8b","notice_ignore":false,"color_show_info":{}},{"thread_id":"2185788379","cate_id":"108","img_paths":[],"title":"\u5927\u5bb6\u522b\u53bb\u7f8a\u57ce\u79c0\u4f18\u529b\u4e86,\u6362\u58f3\u8dd1\u8def\u7206\u96f7\u4e86\u3002\u3002","content":"\nRT\uff0c\u9e6d\u6c5f\u539f\u6765\u7684\u4f18\u529b\uff08\u73b0\u5728\u53ebTOP ONE\uff09\u6362\u58f3\u8dd1\u8def\uff0c\u5751\u6b7b\u8001\u4f1a\u5458\u4e86\u3002\n \n\u6d77\u73e0\u65b0\u6e2f\u897f\u8def\u4f18\u529b\u6e38\u6cf3\u5065\u8eab\uff08\u9e6d\u6c5f\u5e97\uff09\uff0c\u516c\u53f8\u662f\u5e7f\u5dde\u60a0\u529b\u4f53\u80b2\u3002\n\n9\u670824\u53f7\u7a81\u7136\u5173\u95e8\u8bf4\u88c5\u4fee\uff0c\u8fd8\u8bf4\u4f1a\u987a\u5ef6\u4f1a\u5458\u65f6\u95f4\u3002\u4f4611\u6708\u521d\u91cd\u65b0\u5f00\u95e8\uff0c\u76f4\u63a5\u6539\u540d\u6210TOP ONE\u5065\u8eab\uff0c\u5bf9\u5916\u8bf4\u6362\u8001\u677f\u4e86\u3002\u4e0d\u80af\u6302\u8425\u4e
+[15:38:04] === RESP 200 http://api.app.zanao.com/app/devicereg
+[15:38:04]     {"errno":0,"errmsg":"","data":{"account_login":false,"wx_login":true,"wx_mp_login":false}}
+[15:38:04] === RESP 200 http://api.app.zanao.com/thread/v2/list?with_reply=true&cate_id=latest&from_time=0&with_comment=true
+[15:38:04]     {"errno":0,"errmsg":"","data":{"list":[{"thread_id":"2186127628","cate_id":"105","img_paths":[],"title":"\u96e8\u8bfe\u5802\u4e24\u6b21\u4f5c\u4e1a\u5fd8\u4ea4\u4e86\u5f71\u54cd\u5927\u4e0d\u5927\u5440\u5df2\u54ed","content":"\u8001\u5e08\u4e0d\u7ed9\u91cd\u7f6e\u4e86\u52a0\u6cb9\u5b69\u5b50\u4eec\u6211\u4e0b\u6b21\u518d\u4e5f\u4e0d\u4f1a\u5fd8\u8bb0\u4ea4\u4e86\uff08\uff09","c_count":"0","ftd":"0","view_count":9,"l_count":"0","reward_price":"0","hongbao_price":"0","post_time":"\u521a\u521a","top_time":0,"cert_show":"0","img_status":"0","report_status":"0","finish_status":"10","headimgurl":"http:\/\/b1.cdn.zanao.com\/upload\/2026\/09\/02\/vu89tmjcwumrda7.jpeg@!sm_w100_h100","nickname":"\u68e0\u67abkt","is_forbid":"0","user_level":3,"user_level_title":"\u521d\u4e2d\u751f","medal_exp_2023":"","cate_name":"\u6253\u542c\u6c42\u52a9","hot_val":0,"need_pay":false,"p_time":"1794468731","is_mine":false,"sign":"lmFtZ5SWaG6Vmg==","view_show":false,"notice_ignore":false,"from_app":true,"l_has":false,"comment_list":[]},{"thread_id":"2186127380","cate_id":"105","img_paths":[],"title":"\u7814\u7a76\u751f\u6559\u80b2\u670d\u52a1\u7ba1\u7406\u5e73\u53f0","content":"\u8bf7\u95ee\u5927\u5bb6\u8fd9\u4e2a\u7cfb\u7edf\u73b0\u5728\u662f\u4e0d\u662f\u6253\u4e0d\u5f00\u5440\uff1f\u8fd8\u662f\u8bf4\u6211\u4e0d\u5728\u6821\u56ed\u7f51\u88ab\u9650\u5236\u4e86\uff0c\u4f46\u662fVPN\u96a7\u9053\u4e5f\u88ab\u6807\u8bb0\u4e3a\u7981\u7528\u8d26\u53f7\u3002","c_count":3,"ftd":"0","view_count":9,"l_count":"0","reward_price":"0","hongbao_price":"0","post_time":"\u521a\u521a","top_time":0,"cert_show":"0","img_status":"0","report_status":"0","finish_status":"10","headimgurl":"http:\/\/b1.cdn.zanao.com\/upload\/2024\/04\/18\/s32vdeknkq3k77h.jpeg@!sm_w100_h100","nickname":"\u4f3d\u9a6c\u591a\u666e\u52d2","is_forbid":"0","user_level":9,"user_level_title":"\u526f\u6559\u6388","medal_exp_2023":"","cate_name":"\u6253\u542c\u6c42\u52a9","hot_val":0,"need_pay":false,"p_time":"1794468713","is_mine":false,"sign":"lmFtZ5SWaGubkg==","view_show":false,"notice_ignore":false,"l_has":false,"comment_list":[{"is_reply_layer":false,"is_layer":false,"comment_id":"2186127985","nickname":"\u4f3d\u9a6c\u591a\u666e\u52d2","headimgurl":"http:\/\/b1.cdn.zanao.com\/upload\/2024\/04\/18\/s32vdeknkq3k77h.jpeg@!sm_w100_h100","content":"\u56e0\u4e3a\u6211\u73b0\u5728\u4e0d\u5728\u5b66\u6821\uff0c\u4f46\u662f\u5f00\u9898\u62a5\u544a\u51c6\u5907\u8981\u622a\u6b62\u63d0\u4ea4\u4e86\uff0c\u8fd9\u4e2a\u7cfb\u7edf\u7a81\u7136\u767b\u4e0d\u4e0a\u4e86","reply_list":[{"reply_is_mine":false,"reply_is_anon":false,"reply_nickname":"\u4f3d\u9a6c\u591a\u666e\u52d2","is_reply_layer":true,"is_layer":false,"comment_id":"2186130316","nickname":"zz2Z","headimgurl":"http:\/\/b1.cdn.zanao.com\/upload\/2025\/06\/18\/wwlsfbga5qzskfk.jpg@!sm_w100_h100","content":"\u6e05\u9664\u6d4f\u89c8\u6570\u636e\u6216\u8005\u6362\u4e00\u4e2a\u6d4f\u89c8\u5668\u5462"},{"reply_is_mine":false,"reply_is_anon":false,"reply_nickname":"zz2Z","is_reply_layer
+[15:38:04] === RESP 200 http://api.app.zanao.com/msg/unum?
+[15:38:04]     {"errno":0,"errmsg":"","data":{"count":0,"like_count":0,"mark_count":0,"comment_count":0,"author_like_count":0}}
+[15:38:04] === REQ GET http://api.app.zanao.com/mx/tag/v1/hot?
+[15:38:04]     X-Sc-Nd: 80820431025893743085
+[15:38:04]     X-Requested-With: XMLHttpRequest
+[15:38:04]     X-Sc-Td: 1794469085
+[15:38:04]     X-Sc-Hb-V: 210
+[15:38:04]     X-Sc-Nt-V: 310
+[15:38:04]     X-Sc-Alias: sysu
+[15:38:04]     X-Sc-Client: app
+[15:38:04]     X-Sc-Platform: Android
+[15:38:04]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:04]     X-Sc-Version: 3.1.0
+[15:38:04]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:04]     X-Sc-Ah: 6116F1DD3CBC09581B4FFA8DDA3FA805
+[15:38:04]     Host: api.app.zanao.com
+[15:38:04]     Connection: Keep-Alive
+[15:38:04]     Accept-Encoding: gzip
+[15:38:04]     User-Agent: okhttp/4.10.0
+[15:38:04] === RESP 200 http://api.app.zanao.com/mx/tag/v1/hot?
+[15:38:04]     {"errno":0,"errmsg":"","data":{"list":[{"tag_id":"2056257501","name":"\u6811\u6d1e","red_dot":false,"view_count":"544.2w","count_show":"view"},{"tag_id":"1977824533","name":"\u604b\u7231\u95ee\u9898\u4e92\u52a9\u4f1a","red_dot":false,"view_count":"319.4w","count_show":"view"},{"tag_id":"2093137411","name":"\u642d\u5b50\u5c0f\u7ec4","red_dot":false,"view_count":"21.2w","count_show":"view"},{"tag_id":"1996090993","name":"\u6e38\u620f\u73a9\u5bb6","red_dot":false,"view_count":"15.1w","count_show":"view"},{"tag_id":"1999526801","name":"\u6212\u65ad\u00b7\u6253\u5361","red_dot":false,"view_count":"73.4w","count_show":"view"},{"tag_id":"1953801929","name":"\u738b\u8005 look in my eyes","red_dot":false,"view_count":"59.2w","count_show":"view"}]}}
+[15:38:09] === REQ GET http://api.app.zanao.com/thread/toplist?
+[15:38:09]     X-Sc-Nd: 39444189801881127805
+[15:38:09]     X-Requested-With: XMLHttpRequest
+[15:38:09]     X-Sc-Td: 1794469089
+[15:38:09]     X-Sc-Hb-V: 210
+[15:38:09]     X-Sc-Nt-V: 310
+[15:38:09]     X-Sc-Alias: sysu
+[15:38:09] === REQ GET http://api.app.zanao.com/thread/hot?count=10&type=3
+[15:38:09] === REQ GET http://api.app.zanao.com/?brand=vivo
+[15:38:09]     X-Sc-Nd: 36498395485053139196
+[15:38:09]     X-Requested-With: XMLHttpRequest
+[15:38:09]     X-Sc-Client: app
+[15:38:09]     X-Sc-Nd: 05711480774766088080
+[15:38:09]     X-Requested-With: XMLHttpRequest
+[15:38:09]     X-Sc-Td: 1794469089
+[15:38:09]     X-Sc-Td: 1794469089
+[15:38:09]     X-Sc-Platform: Android
+[15:38:09]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:09]     X-Sc-Version: 3.1.0
+[15:38:09]     X-Sc-Hb-V: 210
+[15:38:09]     X-Sc-Hb-V: 210
+[15:38:09]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:09]     X-Sc-Nt-V: 310
+[15:38:09]     X-Sc-Nt-V: 310
+[15:38:09]     X-Sc-Ah: C36E5EE7AB9451F1064CEB01870071E7
+[15:38:09]     X-Sc-Alias: sysu
+[15:38:09]     X-Sc-Alias: sysu
+[15:38:09]     Host: api.app.zanao.com
+[15:38:09]     X-Sc-Client: app
+[15:38:09]     X-Sc-Platform: Android
+[15:38:09]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:09]     X-Sc-Client: app
+[15:38:09]     Connection: Keep-Alive
+[15:38:09]     Accept-Encoding: gzip
+[15:38:09]     User-Agent: okhttp/4.10.0
+[15:38:09]     X-Sc-Version: 3.1.0
+[15:38:09]     X-Sc-Platform: Android
+[15:38:09]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:09]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:09]     X-Sc-Ah: 178E7B248D7D6830CCA289E39FCA4475
+[15:38:09]     Host: api.app.zanao.com
+[15:38:09]     Connection: Keep-Alive
+[15:38:09]     X-Sc-Version: 3.1.0
+[15:38:09]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:09]     X-Sc-Ah: F5E8757C07EFD3F0F5C94A3412B90F29
+[15:38:09]     Host: api.app.zanao.com
+[15:38:09]     Connection: Keep-Alive
+[15:38:09]     Accept-Encoding: gzip
+[15:38:09]     Accept-Encoding: gzip
+[15:38:09]     User-Agent: okhttp/4.10.0
+[15:38:09]     User-Agent: okhttp/4.10.0
+[15:38:09] === REQ GET http://api.app.zanao.com/thread/v2/list?with_reply=true&cate_id=latest&from_time=0&with_comment=true
+[15:38:09]     X-Sc-Nd: 51289931063722159311
+[15:38:09]     X-Requested-With: XMLHttpRequest
+[15:38:09]     X-Sc-Td: 1794469089
+[15:38:09]     X-Sc-Hb-V: 210
+[15:38:09]     X-Sc-Nt-V: 310
+[15:38:09]     X-Sc-Alias: sysu
+[15:38:09]     X-Sc-Client: app
+[15:38:09]     X-Sc-Platform: Android
+[15:38:09]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:09]     X-Sc-Version: 3.1.0
+[15:38:09]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:09]     X-Sc-Ah: 9F0F9C3F98890C5601E3916A5F2BE793
+[15:38:09]     Host: api.app.zanao.com
+[15:38:09]     Connection: Keep-Alive
+[15:38:09]     Accept-Encoding: gzip
+[15:38:09]     User-Agent: okhttp/4.10.0
+[15:38:09] === RESP 200 http://api.app.zanao.com/thread/toplist?
+[15:38:09]     {"errno":0,"errmsg":"","data":{"list":[]}}
+[15:38:09] === RESP 200 http://api.app.zanao.com/?brand=vivo
+[15:38:09]     {"errno":0,"errmsg":"","data":{"banner_list":[],"cate_list":[{"cate_id":"101","name":"\u4e8c\u624b\u95f2\u7f6e","summary":"\u672c\u6821\u7ebf\u4e0b\u4ea4\u6613","icon_path":"upload\/2021\/05\/09\/uzueybckbjwpatc.png"},{"cate_id":"105","name":"\u6253\u542c\u6c42\u52a9","summary":"\u6709\u95ee\u9898\u5c31\u6709\u7b54\u6848","icon_path":"upload\/2021\/05\/09\/fuv9zhbqdwapv2h.png"},{"cate_id":"302","name":"\u604b\u7231\u4ea4\u53cb","summary":"\u627e\u642d\u5b50\u4ea4\u670b\u53cb","icon_path":"upload\/2021\/05\/09\/2fwddxxn9jnrkta.png"},{"cate_id":"108","name":"\u6821\u56ed\u8da3\u4e8b","summary":"\u5403\u74dc\u6700\u524d\u7ebf","icon_path":"upload\/2021\/05\/09\/evhpg2khayvyabx.png"},{"cate_id":"303","name":"\u517c\u804c\u62db\u8058","summary":"\u4f01\u4e1a\u627e\u7075\u5de5","icon_path":"upload\/2021\/09\/12\/wrye98cpdkpvfpw.png"},{"cate_id":"102","name":"\u6821\u56ed\u62db\u8058","summary":"\u6821\u62db\u53ca\u5ba3\u8bb2\u4f1a","icon_path":"upload\/2021\/05\/09\/yqaplxsy7cdxzgs.png"}],"course_open":true,"paotui_open":true,"paotui_mp_info":{"appid":"wxe450ac8deaa5c354","username":"gh_ef55fed38a04","path":"pages\/easypost\/easypost?tid=sysu","index_path":"pages\/index\/index?tid=sysu","easypost_path":"pages\/easypost\/easypost?tid=sysu"},"cur_week_num":10,"page_course_home":"course_home","course_select_conf":{"title":"\u8bfe\u7a0b\u8bc4\u4ef7","desc":"\u9009\u8bfe\u4e0d\u8e29\u5751","link_type":"app_page","app_page_conf":{"page":"remote","rC":{"url":"https:\/\/a.zanao.com\/course\/select\/list?cid=sysu","_meta":{"nightMode":0,"topBar":{"title":"\u9009\u8bfe\u4e13\u533a"}}}}},"course_select_open":true,"mx_small_open":true,"tutor_open":true,"tutor_cate_conf":{"cate_id":"tutor","name":"\u62db\u5bb6\u6559\u966a\u4f34"},"tutor_conf":{"list_empty_text":"\u6682\u65e0\u5bb6\u6559\u966a\u4f34\u9700\u6c42"},"extra_reg_types":["mipush","huaweipush"]}}
+[15:38:09] === RESP 200 http://api.app.zanao.com/thread/hot?count=10&type=3
+[15:38:09]     {"errno":0,"errmsg":"","data":{"list":[{"thread_id":"2185602207","cate_id":"108","img_paths":[],"title":"\u5bf9\u4f60\u5fc3\u751f\u7231\u6155\u4e86","content":"\u897f2-303\u5403\u8f66\u4ed4\u9762\u7684\u5973\u5b69\uff0c\u6211\u4e45\u4e45\u51dd\u671b\u4f60\u4e00\u9f13\u4e00\u9f13\u50cf\u5c0f\u677e\u9f20\u822c\u7684\u4fa7\u8138\uff0c\u4f60\u62ff\u7740\u7b77\u5b50\u5438\u6e9c\u8f66\u4ed4\u9762\u7684\u6a21\u6837\u4ee4\u4eba\u96be\u4ee5\u5fd8\u6000\uff0c\u6574\u95f4\u6559\u5ba4\u5f25\u6f2b\u7740\u8fd9\u80a1\u72ec\u4e00\u65e0\u4e8c\u7684\u82ac\u82b3\uff0c\u548c\u4f60\u7684\u5973\u4eba\u5473\u76f8\u5f97\u76ca\u5f70\uff0c\u4f60\u5c31\u8fd9\u6837\u7f8e\u800c\u4e0d\u81ea\u77e5\u5730\u6563\u53d1\u9b45\u529b\uff0c\u4e00\u767e\u591a\u4e2a\u4e0a\u665a\u8bfe\u7684\u540c\u5b66\u90fd\u6d78\u6ce1\u5728\u4f60\u5507\u9f7f\u95f4\u6ea2\u51fa\u7684\u99a5\u90c1\u9999\u6c14\u4e2d\u3002\u7136\u800c\uff0c\u6211\u788d\u4e8e\u8eab\u4efd\u4e0d\u80fd\u52c7\u6562\u8ffd\u6c42\u4f60\uff0c\u6211\u6709\u7740\u7279\u6b8a\u7684\u57fa\u56e0\uff0c\u6708\u5706\u4e4b\u591c\u4f1a\u5316\u4f5c\u5e7f\u4e1c\u53cc\u9a6c\u5c3e\uff0c\u6cbf\u7740\u4e0b\u6c34\u9053\u722c\u5230\u4f60\u7684\u5bbf\u820d\uff0c\u5e76\u4ece\u95e8\u7f1d\u6e9c\u8fdb\u6765\uff0c\u5faa\u7740\u4f60\u7684\u6c14\u5473\u94bb\u8fdb\u4f60\u7684\u88ab\u7a9d\u3002\u5982\u679c\u4e0d\u60f3\u88ab\u6211\u8fd9\u6837\u4f4e\u52a3\u7684\u751f\u7269\u8fd1\u8eab\uff0c\u90a3\u5c31\u95ed\u4e0a\u4e00\u76f4\u7838\u5427\u7684\u5634\u7aef\u7740\u4f60\u6c14\u5473\u5de8\u5927\u7684\u98df\u7269\u6eda\u51fa\u53bb\uff0c\u50bb\u53c9\uff0c\u5927\u5b66\u4e86\u8fd8\u6709\u8fd9\u79cd\u4f4e\u7d20\u8d28\u7684\u4eba\u3002","c_count":"43","view_count":8590,"l_count":"172","hongbao_price":"0","post_time":"\u6628\u592918:54","report_status":"0","finish_status":"10","hot_val":"191","hot_rank":1,"hot_rank_show":"01","view_show":true,"hot_text":"8.6K","headimgurl":"http:\/\/b1.cdn.zanao.com\/upload\/2025\/10\/08\/sbl8z2tuk558raj.jpg@!sm_w100_h100","nickname":"\u60c5\u610f\u7ef5\u7ef5\u67aa\u51fb","user_level":5,"user_level_title":"\u672c\u79d1\u751f","l_has":false,"cate_name":"\u6821\u56ed\u8da3\u4e8b","notice_ignore":false,"color_show_info":{}},{"thread_id":"2185788379","cate_id":"108","img_paths":[],"title":"\u5927\u5bb6\u522b\u53bb\u7f8a\u57ce\u79c0\u4f18\u529b\u4e86,\u6362\u58f3\u8dd1\u8def\u7206\u96f7\u4e86\u3002\u3002","content":"\nRT\uff0c\u9e6d\u6c5f\u539f\u6765\u7684\u4f18\u529b\uff08\u73b0\u5728\u53ebTOP ONE\uff09\u6362\u58f3\u8dd1\u8def\uff0c\u5751\u6b7b\u8001\u4f1a\u5458\u4e86\u3002\n \n\u6d77\u73e0\u65b0\u6e2f\u897f\u8def\u4f18\u529b\u6e38\u6cf3\u5065\u8eab\uff08\u9e6d\u6c5f\u5e97\uff09\uff0c\u516c\u53f8\u662f\u5e7f\u5dde\u60a0\u529b\u4f53\u80b2\u3002\n\n9\u670824\u53f7\u7a81\u7136\u5173\u95e8\u8bf4\u88c5\u4fee\uff0c\u8fd8\u8bf4\u4f1a\u987a\u5ef6\u4f1a\u5458\u65f6\u95f4\u3002\u4f4611\u6708\u521d\u91cd\u65b0\u5f00\u95e8\uff0c\u76f4\u63a5\u6539\u540d\u6210TOP ONE\u5065\u8eab\uff0c\u5bf9\u5916\u8bf4\u6362\u8001\u677f\u4e86\u3002\u4e0d\u80af\u6302\u8425\u4e
+[15:38:09] === REQ POST http://api.app.zanao.com/app/devicereg
+[15:38:09]     X-Sc-Nd: 10057873574531840799
+[15:38:09]     X-Requested-With: XMLHttpRequest
+[15:38:09]     X-Sc-Td: 1794469089
+[15:38:09]     X-Sc-Hb-V: 210
+[15:38:09]     X-Sc-Nt-V: 310
+[15:38:09]     X-Sc-Alias: sysu
+[15:38:09]     X-Sc-Client: app
+[15:38:09]     X-Sc-Platform: Android
+[15:38:09]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:09]     X-Sc-Version: 3.1.0
+[15:38:09]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:09]     X-Sc-Ah: 0D009B3BB6EE48034E11143CBFF3ED1E
+[15:38:09]     Content-Type: application/x-www-form-urlencoded
+[15:38:09]     Content-Length: 1138
+[15:38:09]     Host: api.app.zanao.com
+[15:38:09]     Connection: Keep-Alive
+[15:38:09]     Accept-Encoding: gzip
+[15:38:09]     User-Agent: okhttp/4.10.0
+[15:38:09]     BODY: device_id=00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8&app_info=%7B%22os%22%3A%22Android%22%2C%22hbVersion%22%3A210%2C%22name%22%3A%22%E6%A0%A1%E5%9B%AD%E9%9B%86%E5%B8%82%22%2C%22appVersionName%22%3A%223.1.0%22%2C%22appVersionCode%22%3A310%2C%22brand%22%3A%22vivo%22%2C%22regId%22%3A%22v2-CR25ny-L8bozvT2o_EeUrjb-QKnJ2FDMeHEfSskjDhvee3KqFo52GaHyXg%22%2C%22regType%22%3A%22vivopush%22%2C%22state%22%3A%22REGISTERED%22%2C%22notificationPermission%22%3A%22granted%22%2C%22extra_reg_list%22%3A%5B%7B%22regId%22%3A%22H6M2yWV3IyVJah1whFdcH%2B5fuXMzlD3sfE0UTNiRSAMArA53plLj0S4iIMP2aR0y%22%2C%22regType%22%3A%22mipush%22%7D%5D%2C%22deviceId%22%3A%2200000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8%22%2C%22systemVersion%22%3A%2236%22%2C%22romName%22%3A%22OriginOS%22%2C%22romVersion%22%3A%2216.0%22%7D&notice_open=1&ua=Mozilla%2F5.0%20%28Linux%3B%20Android%2016%3B%20V2465A%20Build%2FBP2A.250605.031.A3_V000L1%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F156.0.8078.47%20Mobile%20Safari%2F537.36%20__HB__NightMode-3&reg_id=v2-CR25ny-L8bozvT2o_EeUrjb-QKnJ2FDMeHEfSskjDhvee3KqFo52GaHyXg
+[15:38:09] === RESP 200 http://api.app.zanao.com/thread/v2/list?with_reply=true&cate_id=latest&from_time=0&with_comment=true
+[15:38:09]     {"errno":0,"errmsg":"","data":{"list":[{"thread_id":"2186127628","cate_id":"105","img_paths":[],"title":"\u96e8\u8bfe\u5802\u4e24\u6b21\u4f5c\u4e1a\u5fd8\u4ea4\u4e86\u5f71\u54cd\u5927\u4e0d\u5927\u5440\u5df2\u54ed","content":"\u8001\u5e08\u4e0d\u7ed9\u91cd\u7f6e\u4e86\u52a0\u6cb9\u5b69\u5b50\u4eec\u6211\u4e0b\u6b21\u518d\u4e5f\u4e0d\u4f1a\u5fd8\u8bb0\u4ea4\u4e86\uff08\uff09","c_count":"0","ftd":"0","view_count":9,"l_count":"0","reward_price":"0","hongbao_price":"0","post_time":"\u521a\u521a","top_time":0,"cert_show":"0","img_status":"0","report_status":"0","finish_status":"10","headimgurl":"http:\/\/b1.cdn.zanao.com\/upload\/2026\/09\/02\/vu89tmjcwumrda7.jpeg@!sm_w100_h100","nickname":"\u68e0\u67abkt","is_forbid":"0","user_level":3,"user_level_title":"\u521d\u4e2d\u751f","medal_exp_2023":"","cate_name":"\u6253\u542c\u6c42\u52a9","hot_val":0,"need_pay":false,"p_time":"1794468731","is_mine":false,"sign":"lmFtZ5SWaG6Vmg==","view_show":false,"notice_ignore":false,"from_app":true,"l_has":false,"comment_list":[]},{"thread_id":"2186127380","cate_id":"105","img_paths":[],"title":"\u7814\u7a76\u751f\u6559\u80b2\u670d\u52a1\u7ba1\u7406\u5e73\u53f0","content":"\u8bf7\u95ee\u5927\u5bb6\u8fd9\u4e2a\u7cfb\u7edf\u73b0\u5728\u662f\u4e0d\u662f\u6253\u4e0d\u5f00\u5440\uff1f\u8fd8\u662f\u8bf4\u6211\u4e0d\u5728\u6821\u56ed\u7f51\u88ab\u9650\u5236\u4e86\uff0c\u4f46\u662fVPN\u96a7\u9053\u4e5f\u88ab\u6807\u8bb0\u4e3a\u7981\u7528\u8d26\u53f7\u3002","c_count":3,"ftd":"0","view_count":9,"l_count":"0","reward_price":"0","hongbao_price":"0","post_time":"\u521a\u521a","top_time":0,"cert_show":"0","img_status":"0","report_status":"0","finish_status":"10","headimgurl":"http:\/\/b1.cdn.zanao.com\/upload\/2024\/04\/18\/s32vdeknkq3k77h.jpeg@!sm_w100_h100","nickname":"\u4f3d\u9a6c\u591a\u666e\u52d2","is_forbid":"0","user_level":9,"user_level_title":"\u526f\u6559\u6388","medal_exp_2023":"","cate_name":"\u6253\u542c\u6c42\u52a9","hot_val":0,"need_pay":false,"p_time":"1794468713","is_mine":false,"sign":"lmFtZ5SWaGubkg==","view_show":false,"notice_ignore":false,"l_has":false,"comment_list":[{"is_reply_layer":false,"is_layer":false,"comment_id":"2186127985","nickname":"\u4f3d\u9a6c\u591a\u666e\u52d2","headimgurl":"http:\/\/b1.cdn.zanao.com\/upload\/2024\/04\/18\/s32vdeknkq3k77h.jpeg@!sm_w100_h100","content":"\u56e0\u4e3a\u6211\u73b0\u5728\u4e0d\u5728\u5b66\u6821\uff0c\u4f46\u662f\u5f00\u9898\u62a5\u544a\u51c6\u5907\u8981\u622a\u6b62\u63d0\u4ea4\u4e86\uff0c\u8fd9\u4e2a\u7cfb\u7edf\u7a81\u7136\u767b\u4e0d\u4e0a\u4e86","reply_list":[{"reply_is_mine":false,"reply_is_anon":false,"reply_nickname":"\u4f3d\u9a6c\u591a\u666e\u52d2","is_reply_layer":true,"is_layer":false,"comment_id":"2186130316","nickname":"zz2Z","headimgurl":"http:\/\/b1.cdn.zanao.com\/upload\/2025\/06\/18\/wwlsfbga5qzskfk.jpg@!sm_w100_h100","content":"\u6e05\u9664\u6d4f\u89c8\u6570\u636e\u6216\u8005\u6362\u4e00\u4e2a\u6d4f\u89c8\u5668\u5462"},{"reply_is_mine":false,"reply_is_anon":false,"reply_nickname":"zz2Z","is_reply_layer
+[15:38:09] === REQ GET http://api.app.zanao.com/mx/tag/v1/hot?
+[15:38:09]     X-Sc-Nd: 60915884303806008196
+[15:38:09]     X-Requested-With: XMLHttpRequest
+[15:38:09]     X-Sc-Td: 1794469090
+[15:38:09]     X-Sc-Hb-V: 210
+[15:38:09]     X-Sc-Nt-V: 310
+[15:38:09]     X-Sc-Alias: sysu
+[15:38:09]     X-Sc-Client: app
+[15:38:09]     X-Sc-Platform: Android
+[15:38:09]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:09]     X-Sc-Version: 3.1.0
+[15:38:09]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:09]     X-Sc-Ah: 4A95D95144A1E29F361ECA3FAD1166EF
+[15:38:09]     Host: api.app.zanao.com
+[15:38:09]     Connection: Keep-Alive
+[15:38:09]     Accept-Encoding: gzip
+[15:38:09]     User-Agent: okhttp/4.10.0
+[15:38:09] === RESP 200 http://api.app.zanao.com/app/devicereg
+[15:38:09]     {"errno":0,"errmsg":"","data":{"account_login":false,"wx_login":true,"wx_mp_login":false}}
+[15:38:09] === RESP 200 http://api.app.zanao.com/mx/tag/v1/hot?
+[15:38:09]     {"errno":0,"errmsg":"","data":{"list":[{"tag_id":"2056257501","name":"\u6811\u6d1e","red_dot":false,"view_count":"544.2w","count_show":"view"},{"tag_id":"1977824533","name":"\u604b\u7231\u95ee\u9898\u4e92\u52a9\u4f1a","red_dot":false,"view_count":"319.4w","count_show":"view"},{"tag_id":"2093137411","name":"\u642d\u5b50\u5c0f\u7ec4","red_dot":false,"view_count":"21.2w","count_show":"view"},{"tag_id":"1996090993","name":"\u6e38\u620f\u73a9\u5bb6","red_dot":false,"view_count":"15.1w","count_show":"view"},{"tag_id":"1999526801","name":"\u6212\u65ad\u00b7\u6253\u5361","red_dot":false,"view_count":"73.4w","count_show":"view"},{"tag_id":"1953801929","name":"\u738b\u8005 look in my eyes","red_dot":false,"view_count":"59.2w","count_show":"view"}]}}
+[15:38:12] === REQ GET http://api.app.zanao.com/thread/toplist?
+[15:38:12]     X-Sc-Nd: 42323878968992764185
+[15:38:12]     X-Requested-With: XMLHttpRequest
+[15:38:12]     X-Sc-Td: 1794469093
+[15:38:12]     X-Sc-Hb-V: 210
+[15:38:12]     X-Sc-Nt-V: 310
+[15:38:12]     X-Sc-Alias: sysu
+[15:38:12]     X-Sc-Client: app
+[15:38:12]     X-Sc-Platform: Android
+[15:38:12]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:12] === REQ GET http://api.app.zanao.com/thread/hot?count=10&type=3
+[15:38:12]     X-Sc-Nd: 08321593560383690296
+[15:38:12]     X-Sc-Version: 3.1.0
+[15:38:12]     X-Requested-With: XMLHttpRequest
+[15:38:12]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:12]     X-Sc-Ah: D148194639631DB8BAFE1D91D88EF608
+[15:38:12]     X-Sc-Td: 1794469093
+[15:38:12]     X-Sc-Hb-V: 210
+[15:38:12]     Host: api.app.zanao.com
+[15:38:12]     Connection: Keep-Alive
+[15:38:12]     X-Sc-Nt-V: 310
+[15:38:12] === REQ GET http://api.app.zanao.com/?brand=vivo
+[15:38:12]     Accept-Encoding: gzip
+[15:38:12]     X-Sc-Alias: sysu
+[15:38:12]     X-Sc-Client: app
+[15:38:12]     X-Sc-Platform: Android
+[15:38:12]     X-Sc-Nd: 07721411756681980121
+[15:38:12]     User-Agent: okhttp/4.10.0
+[15:38:12]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:12]     X-Requested-With: XMLHttpRequest
+[15:38:12]     X-Sc-Td: 1794469093
+[15:38:12]     X-Sc-Version: 3.1.0
+[15:38:12]     X-Sc-Hb-V: 210
+[15:38:12]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:12]     X-Sc-Ah: 2FBF72FD99132DB2471705584FA6A831
+[15:38:12]     X-Sc-Nt-V: 310
+[15:38:12]     X-Sc-Alias: sysu
+[15:38:12]     Host: api.app.zanao.com
+[15:38:12]     Connection: Keep-Alive
+[15:38:12]     X-Sc-Client: app
+[15:38:12]     X-Sc-Platform: Android
+[15:38:12]     Accept-Encoding: gzip
+[15:38:12]     User-Agent: okhttp/4.10.0
+[15:38:12]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:12]     X-Sc-Version: 3.1.0
+[15:38:12]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:12]     X-Sc-Ah: B88587D4F4DD27E712B12D51587898D9
+[15:38:12]     Host: api.app.zanao.com
+[15:38:12]     Connection: Keep-Alive
+[15:38:12]     Accept-Encoding: gzip
+[15:38:12]     User-Agent: okhttp/4.10.0
+[15:38:12] === REQ GET http://api.app.zanao.com/thread/v2/list?with_reply=true&cate_id=latest&from_time=0&with_comment=true
+[15:38:12]     X-Sc-Nd: 37354050072457932803
+[15:38:12]     X-Requested-With: XMLHttpRequest
+[15:38:12]     X-Sc-Td: 1794469093
+[15:38:12]     X-Sc-Hb-V: 210
+[15:38:12]     X-Sc-Nt-V: 310
+[15:38:12]     X-Sc-Alias: sysu
+[15:38:12]     X-Sc-Client: app
+[15:38:12]     X-Sc-Platform: Android
+[15:38:12]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:12]     X-Sc-Version: 3.1.0
+[15:38:12]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:12]     X-Sc-Ah: CCB2912E5A64C83343CA7E6ACD620222
+[15:38:12]     Host: api.app.zanao.com
+[15:38:12]     Connection: Keep-Alive
+[15:38:12]     Accept-Encoding: gzip
+[15:38:12]     User-Agent: okhttp/4.10.0
+[15:38:12] === RESP 200 http://api.app.zanao.com/thread/toplist?
+[15:38:12]     {"errno":0,"errmsg":"","data":{"list":[]}}
+[15:38:12] === RESP 200 http://api.app.zanao.com/?brand=vivo
+[15:38:12]     {"errno":0,"errmsg":"","data":{"banner_list":[],"cate_list":[{"cate_id":"101","name":"\u4e8c\u624b\u95f2\u7f6e","summary":"\u672c\u6821\u7ebf\u4e0b\u4ea4\u6613","icon_path":"upload\/2021\/05\/09\/uzueybckbjwpatc.png"},{"cate_id":"105","name":"\u6253\u542c\u6c42\u52a9","summary":"\u6709\u95ee\u9898\u5c31\u6709\u7b54\u6848","icon_path":"upload\/2021\/05\/09\/fuv9zhbqdwapv2h.png"},{"cate_id":"302","name":"\u604b\u7231\u4ea4\u53cb","summary":"\u627e\u642d\u5b50\u4ea4\u670b\u53cb","icon_path":"upload\/2021\/05\/09\/2fwddxxn9jnrkta.png"},{"cate_id":"108","name":"\u6821\u56ed\u8da3\u4e8b","summary":"\u5403\u74dc\u6700\u524d\u7ebf","icon_path":"upload\/2021\/05\/09\/evhpg2khayvyabx.png"},{"cate_id":"303","name":"\u517c\u804c\u62db\u8058","summary":"\u4f01\u4e1a\u627e\u7075\u5de5","icon_path":"upload\/2021\/09\/12\/wrye98cpdkpvfpw.png"},{"cate_id":"102","name":"\u6821\u56ed\u62db\u8058","summary":"\u6821\u62db\u53ca\u5ba3\u8bb2\u4f1a","icon_path":"upload\/2021\/05\/09\/yqaplxsy7cdxzgs.png"}],"course_open":true,"paotui_open":true,"paotui_mp_info":{"appid":"wxe450ac8deaa5c354","username":"gh_ef55fed38a04","path":"pages\/easypost\/easypost?tid=sysu","index_path":"pages\/index\/index?tid=sysu","easypost_path":"pages\/easypost\/easypost?tid=sysu"},"cur_week_num":10,"page_course_home":"course_home","course_select_conf":{"title":"\u8bfe\u7a0b\u8bc4\u4ef7","desc":"\u9009\u8bfe\u4e0d\u8e29\u5751","link_type":"app_page","app_page_conf":{"page":"remote","rC":{"url":"https:\/\/a.zanao.com\/course\/select\/list?cid=sysu","_meta":{"nightMode":0,"topBar":{"title":"\u9009\u8bfe\u4e13\u533a"}}}}},"course_select_open":true,"mx_small_open":true,"tutor_open":true,"tutor_cate_conf":{"cate_id":"tutor","name":"\u62db\u5bb6\u6559\u966a\u4f34"},"tutor_conf":{"list_empty_text":"\u6682\u65e0\u5bb6\u6559\u966a\u4f34\u9700\u6c42"},"extra_reg_types":["mipush","huaweipush"]}}
+[15:38:12] === REQ POST http://api.app.zanao.com/app/devicereg
+[15:38:12]     X-Sc-Nd: 60118332716086628913
+[15:38:12]     X-Requested-With: XMLHttpRequest
+[15:38:12]     X-Sc-Td: 1794469093
+[15:38:12]     X-Sc-Hb-V: 210
+[15:38:12]     X-Sc-Nt-V: 310
+[15:38:12]     X-Sc-Alias: sysu
+[15:38:12]     X-Sc-Client: app
+[15:38:12]     X-Sc-Platform: Android
+[15:38:12] === RESP 200 http://api.app.zanao.com/thread/hot?count=10&type=3
+[15:38:12]     {"errno":0,"errmsg":"","data":{"list":[{"thread_id":"2185602207","cate_id":"108","img_paths":[],"title":"\u5bf9\u4f60\u5fc3\u751f\u7231\u6155\u4e86","content":"\u897f2-303\u5403\u8f66\u4ed4\u9762\u7684\u5973\u5b69\uff0c\u6211\u4e45\u4e45\u51dd\u671b\u4f60\u4e00\u9f13\u4e00\u9f13\u50cf\u5c0f\u677e\u9f20\u822c\u7684\u4fa7\u8138\uff0c\u4f60\u62ff\u7740\u7b77\u5b50\u5438\u6e9c\u8f66\u4ed4\u9762\u7684\u6a21\u6837\u4ee4\u4eba\u96be\u4ee5\u5fd8\u6000\uff0c\u6574\u95f4\u6559\u5ba4\u5f25\u6f2b\u7740\u8fd9\u80a1\u72ec\u4e00\u65e0\u4e8c\u7684\u82ac\u82b3\uff0c\u548c\u4f60\u7684\u5973\u4eba\u5473\u76f8\u5f97\u76ca\u5f70\uff0c\u4f60\u5c31\u8fd9\u6837\u7f8e\u800c\u4e0d\u81ea\u77e5\u5730\u6563\u53d1\u9b45\u529b\uff0c\u4e00\u767e\u591a\u4e2a\u4e0a\u665a\u8bfe\u7684\u540c\u5b66\u90fd\u6d78\u6ce1\u5728\u4f60\u5507\u9f7f\u95f4\u6ea2\u51fa\u7684\u99a5\u90c1\u9999\u6c14\u4e2d\u3002\u7136\u800c\uff0c\u6211\u788d\u4e8e\u8eab\u4efd\u4e0d\u80fd\u52c7\u6562\u8ffd\u6c42\u4f60\uff0c\u6211\u6709\u7740\u7279\u6b8a\u7684\u57fa\u56e0\uff0c\u6708\u5706\u4e4b\u591c\u4f1a\u5316\u4f5c\u5e7f\u4e1c\u53cc\u9a6c\u5c3e\uff0c\u6cbf\u7740\u4e0b\u6c34\u9053\u722c\u5230\u4f60\u7684\u5bbf\u820d\uff0c\u5e76\u4ece\u95e8\u7f1d\u6e9c\u8fdb\u6765\uff0c\u5faa\u7740\u4f60\u7684\u6c14\u5473\u94bb\u8fdb\u4f60\u7684\u88ab\u7a9d\u3002\u5982\u679c\u4e0d\u60f3\u88ab\u6211\u8fd9\u6837\u4f4e\u52a3\u7684\u751f\u7269\u8fd1\u8eab\uff0c\u90a3\u5c31\u95ed\u4e0a\u4e00\u76f4\u7838\u5427\u7684\u5634\u7aef\u7740\u4f60\u6c14\u5473\u5de8\u5927\u7684\u98df\u7269\u6eda\u51fa\u53bb\uff0c\u50bb\u53c9\uff0c\u5927\u5b66\u4e86\u8fd8\u6709\u8fd9\u79cd\u4f4e\u7d20\u8d28\u7684\u4eba\u3002","c_count":"44","view_count":8590,"l_count":"172","hongbao_price":"0","post_time":"\u6628\u592918:54","report_status":"0","finish_status":"10","hot_val":"191","hot_rank":1,"hot_rank_show":"01","view_show":true,"hot_text":"8.6K","headimgurl":"http:\/\/b1.cdn.zanao.com\/upload\/2025\/10\/08\/sbl8z2tuk558raj.jpg@!sm_w100_h100","nickname":"\u60c5\u610f\u7ef5\u7ef5\u67aa\u51fb","user_level":5,"user_level_title":"\u672c\u79d1\u751f","l_has":false,"cate_name":"\u6821\u56ed\u8da3\u4e8b","notice_ignore":false,"color_show_info":{}},{"thread_id":"2185788379","cate_id":"108","img_paths":[],"title":"\u5927\u5bb6\u522b\u53bb\u7f8a\u57ce\u79c0\u4f18\u529b\u4e86,\u6362\u58f3\u8dd1\u8def\u7206\u96f7\u4e86\u3002\u3002","content":"\nRT\uff0c\u9e6d\u6c5f\u539f\u6765\u7684\u4f18\u529b\uff08\u73b0\u5728\u53ebTOP ONE\uff09\u6362\u58f3\u8dd1\u8def\uff0c\u5751\u6b7b\u8001\u4f1a\u5458\u4e86\u3002\n \n\u6d77\u73e0\u65b0\u6e2f\u897f\u8def\u4f18\u529b\u6e38\u6cf3\u5065\u8eab\uff08\u9e6d\u6c5f\u5e97\uff09\uff0c\u516c\u53f8\u662f\u5e7f\u5dde\u60a0\u529b\u4f53\u80b2\u3002\n\n9\u670824\u53f7\u7a81\u7136\u5173\u95e8\u8bf4\u88c5\u4fee\uff0c\u8fd8\u8bf4\u4f1a\u987a\u5ef6\u4f1a\u5458\u65f6\u95f4\u3002\u4f4611\u6708\u521d\u91cd\u65b0\u5f00\u95e8\uff0c\u76f4\u63a5\u6539\u540d\u6210TOP ONE\u5065\u8eab\uff0c\u5bf9\u5916\u8bf4\u6362\u8001\u677f\u4e86\u3002\u4e0d\u80af\u6302\u8425\u4e
+[15:38:12]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:12]     X-Sc-Version: 3.1.0
+[15:38:12]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:12]     X-Sc-Ah: 25C69306BB25DD7C29368B593FD0A30C
+[15:38:12]     Content-Type: application/x-www-form-urlencoded
+[15:38:12]     Content-Length: 1138
+[15:38:12]     Host: api.app.zanao.com
+[15:38:12]     Connection: Keep-Alive
+[15:38:12]     Accept-Encoding: gzip
+[15:38:12]     User-Agent: okhttp/4.10.0
+[15:38:12]     BODY: device_id=00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8&app_info=%7B%22os%22%3A%22Android%22%2C%22hbVersion%22%3A210%2C%22name%22%3A%22%E6%A0%A1%E5%9B%AD%E9%9B%86%E5%B8%82%22%2C%22appVersionName%22%3A%223.1.0%22%2C%22appVersionCode%22%3A310%2C%22brand%22%3A%22vivo%22%2C%22regId%22%3A%22v2-CR25ny-L8bozvT2o_EeUrjb-QKnJ2FDMeHEfSskjDhvee3KqFo52GaHyXg%22%2C%22regType%22%3A%22vivopush%22%2C%22state%22%3A%22REGISTERED%22%2C%22notificationPermission%22%3A%22granted%22%2C%22extra_reg_list%22%3A%5B%7B%22regId%22%3A%22H6M2yWV3IyVJah1whFdcH%2B5fuXMzlD3sfE0UTNiRSAMArA53plLj0S4iIMP2aR0y%22%2C%22regType%22%3A%22mipush%22%7D%5D%2C%22deviceId%22%3A%2200000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8%22%2C%22systemVersion%22%3A%2236%22%2C%22romName%22%3A%22OriginOS%22%2C%22romVersion%22%3A%2216.0%22%7D&notice_open=1&ua=Mozilla%2F5.0%20%28Linux%3B%20Android%2016%3B%20V2465A%20Build%2FBP2A.250605.031.A3_V000L1%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F156.0.8078.47%20Mobile%20Safari%2F537.36%20__HB__NightMode-3&reg_id=v2-CR25ny-L8bozvT2o_EeUrjb-QKnJ2FDMeHEfSskjDhvee3KqFo52GaHyXg
+[15:38:12] === RESP 200 http://api.app.zanao.com/thread/v2/list?with_reply=true&cate_id=latest&from_time=0&with_comment=true
+[15:38:12]     {"errno":0,"errmsg":"","data":{"list":[{"thread_id":"2186127628","cate_id":"105","img_paths":[],"title":"\u96e8\u8bfe\u5802\u4e24\u6b21\u4f5c\u4e1a\u5fd8\u4ea4\u4e86\u5f71\u54cd\u5927\u4e0d\u5927\u5440\u5df2\u54ed","content":"\u8001\u5e08\u4e0d\u7ed9\u91cd\u7f6e\u4e86\u52a0\u6cb9\u5b69\u5b50\u4eec\u6211\u4e0b\u6b21\u518d\u4e5f\u4e0d\u4f1a\u5fd8\u8bb0\u4ea4\u4e86\uff08\uff09","c_count":"0","ftd":"0","view_count":9,"l_count":"0","reward_price":"0","hongbao_price":"0","post_time":"\u521a\u521a","top_time":0,"cert_show":"0","img_status":"0","report_status":"0","finish_status":"10","headimgurl":"http:\/\/b1.cdn.zanao.com\/upload\/2026\/09\/02\/vu89tmjcwumrda7.jpeg@!sm_w100_h100","nickname":"\u68e0\u67abkt","is_forbid":"0","user_level":3,"user_level_title":"\u521d\u4e2d\u751f","medal_exp_2023":"","cate_name":"\u6253\u542c\u6c42\u52a9","hot_val":0,"need_pay":false,"p_time":"1794468731","is_mine":false,"sign":"lmFtZ5SWaG6Vmg==","view_show":false,"notice_ignore":false,"from_app":true,"l_has":false,"comment_list":[]},{"thread_id":"2186127380","cate_id":"105","img_paths":[],"title":"\u7814\u7a76\u751f\u6559\u80b2\u670d\u52a1\u7ba1\u7406\u5e73\u53f0","content":"\u8bf7\u95ee\u5927\u5bb6\u8fd9\u4e2a\u7cfb\u7edf\u73b0\u5728\u662f\u4e0d\u662f\u6253\u4e0d\u5f00\u5440\uff1f\u8fd8\u662f\u8bf4\u6211\u4e0d\u5728\u6821\u56ed\u7f51\u88ab\u9650\u5236\u4e86\uff0c\u4f46\u662fVPN\u96a7\u9053\u4e5f\u88ab\u6807\u8bb0\u4e3a\u7981\u7528\u8d26\u53f7\u3002","c_count":3,"ftd":"0","view_count":9,"l_count":"0","reward_price":"0","hongbao_price":"0","post_time":"\u521a\u521a","top_time":0,"cert_show":"0","img_status":"0","report_status":"0","finish_status":"10","headimgurl":"http:\/\/b1.cdn.zanao.com\/upload\/2024\/04\/18\/s32vdeknkq3k77h.jpeg@!sm_w100_h100","nickname":"\u4f3d\u9a6c\u591a\u666e\u52d2","is_forbid":"0","user_level":9,"user_level_title":"\u526f\u6559\u6388","medal_exp_2023":"","cate_name":"\u6253\u542c\u6c42\u52a9","hot_val":0,"need_pay":false,"p_time":"1794468713","is_mine":false,"sign":"lmFtZ5SWaGubkg==","view_show":false,"notice_ignore":false,"l_has":false,"comment_list":[{"is_reply_layer":false,"is_layer":false,"comment_id":"2186127985","nickname":"\u4f3d\u9a6c\u591a\u666e\u52d2","headimgurl":"http:\/\/b1.cdn.zanao.com\/upload\/2024\/04\/18\/s32vdeknkq3k77h.jpeg@!sm_w100_h100","content":"\u56e0\u4e3a\u6211\u73b0\u5728\u4e0d\u5728\u5b66\u6821\uff0c\u4f46\u662f\u5f00\u9898\u62a5\u544a\u51c6\u5907\u8981\u622a\u6b62\u63d0\u4ea4\u4e86\uff0c\u8fd9\u4e2a\u7cfb\u7edf\u7a81\u7136\u767b\u4e0d\u4e0a\u4e86","reply_list":[{"reply_is_mine":false,"reply_is_anon":false,"reply_nickname":"\u4f3d\u9a6c\u591a\u666e\u52d2","is_reply_layer":true,"is_layer":false,"comment_id":"2186130316","nickname":"zz2Z","headimgurl":"http:\/\/b1.cdn.zanao.com\/upload\/2025\/06\/18\/wwlsfbga5qzskfk.jpg@!sm_w100_h100","content":"\u6e05\u9664\u6d4f\u89c8\u6570\u636e\u6216\u8005\u6362\u4e00\u4e2a\u6d4f\u89c8\u5668\u5462"},{"reply_is_mine":false,"reply_is_anon":false,"reply_nickname":"zz2Z","is_reply_layer
+[15:38:12] === REQ GET http://api.app.zanao.com/mx/tag/v1/hot?
+[15:38:12]     X-Sc-Nd: 31612279518831603246
+[15:38:12]     X-Requested-With: XMLHttpRequest
+[15:38:12]     X-Sc-Td: 1794469093
+[15:38:12]     X-Sc-Hb-V: 210
+[15:38:12]     X-Sc-Nt-V: 310
+[15:38:12]     X-Sc-Alias: sysu
+[15:38:12]     X-Sc-Client: app
+[15:38:12]     X-Sc-Platform: Android
+[15:38:12]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:38:12]     X-Sc-Version: 3.1.0
+[15:38:12]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:38:12]     X-Sc-Ah: E1473DB7F3B12D8781C1A859FF21EE99
+[15:38:12]     Host: api.app.zanao.com
+[15:38:12]     Connection: Keep-Alive
+[15:38:12]     Accept-Encoding: gzip
+[15:38:12]     User-Agent: okhttp/4.10.0
+[15:38:12] === RESP 200 http://api.app.zanao.com/app/devicereg
+[15:38:12]     {"errno":0,"errmsg":"","data":{"account_login":false,"wx_login":true,"wx_mp_login":false}}
+[15:38:12] === RESP 200 http://api.app.zanao.com/mx/tag/v1/hot?
+[15:38:12]     {"errno":0,"errmsg":"","data":{"list":[{"tag_id":"2056257501","name":"\u6811\u6d1e","red_dot":false,"view_count":"544.2w","count_show":"view"},{"tag_id":"1977824533","name":"\u604b\u7231\u95ee\u9898\u4e92\u52a9\u4f1a","red_dot":false,"view_count":"319.4w","count_show":"view"},{"tag_id":"2093137411","name":"\u642d\u5b50\u5c0f\u7ec4","red_dot":false,"view_count":"21.2w","count_show":"view"},{"tag_id":"1996090993","name":"\u6e38\u620f\u73a9\u5bb6","red_dot":false,"view_count":"15.1w","count_show":"view"},{"tag_id":"1999526801","name":"\u6212\u65ad\u00b7\u6253\u5361","red_dot":false,"view_count":"73.4w","count_show":"view"},{"tag_id":"1953801929","name":"\u738b\u8005 look in my eyes","red_dot":false,"view_count":"59.2w","count_show":"view"}]}}
+[15:39:04] === REQ GET http://api.app.zanao.com/msg/unum?
+[15:39:04]     X-Sc-Nd: 81916366608488957915
+[15:39:04]     X-Requested-With: XMLHttpRequest
+[15:39:04]     X-Sc-Td: 1794469145
+[15:39:04]     X-Sc-Hb-V: 210
+[15:39:04]     X-Sc-Nt-V: 310
+[15:39:04]     X-Sc-Alias: sysu
+[15:39:04]     X-Sc-Client: app
+[15:39:04]     X-Sc-Platform: Android
+[15:39:04]     X-Sc-Device: 00000000-5264-1591-ffff-ffffef05ac4a-b3a9b0ec21685bd8
+[15:39:04]     X-Sc-Version: 3.1.0
+[15:39:04]     X-Sc-Token: dWpncU52bSsvQXFwVzdESnJVenpKWTVTc29yVXVybzNSNG1HQVlKai85az0%3D
+[15:39:04]     X-Sc-Ah: 9B6C9EE069B400DA08272D5857BFBB90
+[15:39:04]     Host: api.app.zanao.com
+[15:39:04]     Connection: Keep-Alive
+[15:39:04]     Accept-Encoding: gzip
+[15:39:04]     User-Agent: okhttp/4.10.0
+[15:39:05] === RESP 200 http://api.app.zanao.com/msg/unum?
+[15:39:05]     {"errno":0,"errmsg":"","data":{"count":0,"like_count":0,"mark_count":0,"comment_count":0,"author_like_count":0}}

@@ -1,0 +1,15 @@
+     ____
+    / _  |   Frida 17.24.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
+Spawning `com.comingx.zanao`...
+Spawned `com.comingx.zanao`. Resuming main thread!
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'t': 'results', 'list': [{'step': 'B 的账号', 'errno': 0, 'user_id': '1998502067', 'id': '9020459', 'nickname': 'u****h', 'cert_status': '30', 'vr_status': '0', 'community_id': '10048'}, {'step': '中山大学 school_id', 'ids': ['z0A9']}, {'step': 'certinfo', 'school_id': 'z0A9', 'errno': 0, 'errmsg': '', 'keys': ['student_no', 'gender_text', 'degree_text', 'realname', 'join_year', 'user_remark', 'college_text', 'cert_img', 'school_name', 'school_id'], 'realname': '***', 'student_no': '2******8', 'has_cert_img': False, 'cert_img_host': None, 'has_cert_img_url': False, 'college_text': '***', 'degree_text': '', 'join_year': '***', 'school_name': '中山大学'}]}} data: None

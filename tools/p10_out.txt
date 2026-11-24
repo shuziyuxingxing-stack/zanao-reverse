@@ -1,0 +1,15 @@
+     ____
+    / _  |   Frida 17.24.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
+Spawning `com.comingx.zanao`...
+Spawned `com.comingx.zanao`. Resuming main thread!
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'t': 'results', 'list': [{'tag': 'POST /thread/info', 'code': 200, 'errno': 10, 'errmsg': 'ID非法', 'json': '{"errno":10,"errmsg":"ID非法","data":[]}', 'raw': None}, {'tag': 'POST /comment/list', 'code': 200, 'errno': 10, 'errmsg': 'ID非法', 'json': '{"errno":10,"errmsg":"ID非法","data":[]}', 'raw': None}, {'tag': 'POST /thread/list (hot)', 'code': 200, 'errno': 0, 'errmsg': '', 'json': '{"errno":0,"errmsg":"","data":{"list":[{"thread_id":"2185205136","title":"网上的中大网红","view_count":13170,"hot_val":"187","hot_rank":1,"hot_rank_show":"01","view_show":true,"hot_text":"1.3W"},{"thread_id":"2185425916","title":"最近在南校做自媒体起号的一男一女","view_count":8172,"hot_val":"161","hot_rank":2,"hot_rank_show":"02","view_show":true,"hot_text":"8.2K"},{"thread_id":"2185432690","title":"感觉现在的大学越来越不像大学了","view_count":5730,"hot_val":"127","hot_rank":3,"hot_rank_show":"03","view_show":true,"hot_text":"5.7K"}]}}', 'raw': None}]}} data: None

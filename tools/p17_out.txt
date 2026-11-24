@@ -1,0 +1,15 @@
+     ____
+    / _  |   Frida 17.24.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
+Spawning `com.comingx.zanao`...
+Spawned `com.comingx.zanao`. Resuming main thread!
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'t': 'results', 'list': [{'tag': 'self', 'id': '13492465', 'user_id': '2183869210', 'cert_status': '0'}, {'tag': 'school_id only', 'errno': 0, 'errmsg': '', 'cert_info_keys': ['school_name', 'school_id'], 'cert_info': '{"school_name":"大连医科大学中山学院","school_id":1320}'}, {'tag': '+uid(self)', 'errno': 0, 'errmsg': '', 'cert_info_keys': ['school_name', 'school_id'], 'cert_info': '{"school_name":"大连医科大学中山学院","school_id":1320}'}, {'tag': '+user_id(self)', 'errno': 0, 'errmsg': '', 'cert_info_keys': ['school_name', 'school_id'], 'cert_info': '{"school_name":"大连医科大学中山学院","school_id":1320}'}, {'tag': '+id(self)', 'errno': 0, 'errmsg': '', 'cert_info_keys': ['school_name', 'school_id'], 'cert_info': '{"school_name":"大连医科大学中山学院","school_id":1320}'}, {'tag': '+uid(other)', 'errno': 0, 'errmsg': '', 'cert_info_keys': ['school_name', 'school_id'], 'cert_info': '{"school_name":"大连医科大学中山学院","school_id":1320}'}]}} data: None

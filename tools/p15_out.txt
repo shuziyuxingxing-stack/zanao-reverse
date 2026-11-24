@@ -1,0 +1,15 @@
+     ____
+    / _  |   Frida 17.24.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
+Spawning `com.comingx.zanao`...
+Spawned `com.comingx.zanao`. Resuming main thread!
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'t': 'results', 'list': [{'tag': '/user/v1/profile(self)', 'errno': 0, 'user_id': '2183869210', 'id': '13492465', 'nickname': '东兴野', 'cert_status': '0', 'vr_status': '0', 'community_id': '10048'}, {'tag': 'mx/admin/userinfo my', 'errno': 10, 'errmsg': '无操作权限', 'json': '{"errno":10,"errmsg":"无操作权限","data":[]}', 'raw': None}, {'tag': 'mx/user/usershow my', 'errno': 10, 'errmsg': '参数非法', 'json': '{"errno":10,"errmsg":"参数非法","data":[]}', 'raw': None}, {'tag': 'mx/user/usershow my+1', 'errno': 10, 'errmsg': '参数非法', 'json': '{"errno":10,"errmsg":"参数非法","data":[]}', 'raw': None}, {'tag': 'user/v1/profile user_id=my+1', 'errno': 0, 'errmsg': '', 'json': '{"errno":0,"errmsg":"","data":{"edit_flag":true,"pay_price":0,"user_notify":"","user_info_tip":"昵称、头像是集市用户的唯一标识，为保障社区安全，30天内可免费修改三次。","user_info_tips":["根据《互联网用户账号名称管理规定》第四条，平台需对用户提交的账号名称、头像等信息进行审核。","昵称、头像是集市用户的唯一标识，为保障社区安全，30天内可免费修改三次。"],"user_pay_tip":"头像昵称审核通过与否，平台都需要支付人工费用；若审核不通过，审核费用不退还。","user_info":{"id":"13492465","user_id":"2183869210","community_id":"10048","headimgurl":"http://b1.cdn.zanao.com/upload/2020/05/24/ynggpkheqq7ryb2.png@!sm_w100_h100","nickname":"东兴野","user_sign":"","user_exp":"6","pay_level":"0","risk_level":"0","forbid_deadline":"0","forbid_deadline_last":"0","is_forbi', 'raw': None}, {'tag': 'user/usershow uid=my+1', 'errno': 10, 'errmsg': '参数非法', 'json': '{"errno":10,"errmsg":"参数非法","data":[]}', 'raw': None}]}} data: None

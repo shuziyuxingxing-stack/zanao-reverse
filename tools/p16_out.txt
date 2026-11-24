@@ -1,0 +1,15 @@
+     ____
+    / _  |   Frida 17.24.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
+Spawning `com.comingx.zanao`...
+Spawned `com.comingx.zanao`. Resuming main thread!
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'t': 'results', 'list': [{'tag': 'self', 'id': '13492465', 'user_id': '2183869210', 'cert_status': '0'}, {'tag': 'mx/usershow uid=my.id', 'errno': 10, 'errmsg': '参数非法', 'json': '{"errno":10,"errmsg":"参数非法","data":[]}'}, {'tag': 'mx/usershow uid=my.id+1', 'errno': 10, 'errmsg': '参数非法', 'json': '{"errno":10,"errmsg":"参数非法","data":[]}'}, {'tag': 'mx/usershow uid=my.id-1', 'errno': 10, 'errmsg': '参数非法', 'json': '{"errno":10,"errmsg":"参数非法","data":[]}'}, {'tag': 'mx/admin/userinfo uid=my.id', 'errno': 10, 'errmsg': '无操作权限', 'json': '{"errno":10,"errmsg":"无操作权限","data":[]}'}]}} data: None

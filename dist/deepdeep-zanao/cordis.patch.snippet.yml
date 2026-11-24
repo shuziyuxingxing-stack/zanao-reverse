@@ -1,0 +1,24 @@
+# 把 zanao 注册成 dsh 的 MCP 工具
+#
+# 把下面这段并入 profile 的 cordis.patch.yml（通常在 $DSH_HOME/cordis.patch.yml，
+# 或 ~/.dsh/profiles/<name>/cordis.patch.yml），然后重启 dsh。
+#
+# 注意：
+#   · command 用绝对路径，别依赖 PATH
+#   · args 里 server.py 的路径要写成插件实际位置
+#   · 设备侧仍需 adb forward tcp:39999 tcp:39999 + frida-server 在跑
+
+- insert:
+    - id: mcp-zanao
+      name: "@deepseek-ai/dsh-mcp-client"
+      config:
+        serverName: zanao
+        transport: stdio
+        command: python
+        args:
+          - "D:/path/to/zanao/mcp/server.py"
+        env:
+          ZANAO_FRIDA: "127.0.0.1:39999"
+          ZANAO_PKG: "com.comingx.zanao"
+        toolCallTimeoutMs: 180000
+        failOnStartupError: false

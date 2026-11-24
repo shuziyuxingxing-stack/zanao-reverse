@@ -1,0 +1,15 @@
+     ____
+    / _  |   Frida 17.24.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
+Spawning `com.comingx.zanao`...
+Spawned `com.comingx.zanao`. Resuming main thread!
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'t': 'results', 'list': [{'path': '/mx/admin/userforbid', 'data': '{"uid":"1"}', 'errno': 10, 'errmsg': 'uid非法', 'verdict': 'CHECK'}, {'path': '/mx/admin/userreset', 'data': '{"uid":"1"}', 'errno': 10, 'errmsg': 'uid非法', 'verdict': 'CHECK'}, {'path': '/mx/admin/risklevelset', 'data': '{"uid":"1","risk_level":0}', 'errno': 10, 'errmsg': 'uid非法', 'verdict': 'CHECK'}, {'path': '/mx/admin/userforbid', 'data': '{"uid":"0"}', 'errno': 10, 'errmsg': '无操作权限', 'verdict': 'GATED-BY-ROLE'}, {'path': '/mx/admin/userreset', 'data': '{"uid":"0"}', 'errno': 10, 'errmsg': '无操作权限', 'verdict': 'GATED-BY-ROLE'}, {'path': '/thread/admin/userforbid', 'data': '{"uid":"1"}', 'errno': 10, 'errmsg': 'uid非法', 'verdict': 'CHECK'}]}} data: None

@@ -1,0 +1,15 @@
+     ____
+    / _  |   Frida 17.24.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
+Spawning `com.comingx.zanao`...
+Spawned `com.comingx.zanao`. Resuming main thread!
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'t': 'results', 'list': [{'tag': 'POST /comment/list(num)', 'm': "Error: valueOf(): argument types do not match any of:\n\t.overload()\n\t.overload('int')\n\t.overload('java.lang.String')\n\t.overload('java.lang.String', 'int')"}, {'tag': 'POST /thread/info(num)', 'm': "Error: valueOf(): argument types do not match any of:\n\t.overload()\n\t.overload('int')\n\t.overload('java.lang.String')\n\t.overload('java.lang.String', 'int')"}, {'tag': 'POST /mx/home', 'code': 200, 'errno': 3, 'errmsg': 'sorry, illegal request', 'keys': [], 'json': '{"errno":3,"errmsg":"sorry, illegal request","data":[]}', 'raw': None}, {'tag': 'POST /im-api/chat/list', 'code': 200, 'errno': 0, 'errmsg': '', 'keys': [], 'json': '{"errno":0,"errmsg":"","data":{"list":[],"mine_user_info":{"nickname":"东兴野","headimgurl":"https://b1.cdn.zanao.com/upload/2020/05/24/ynggpkheqq7ryb2.png@!sm_w100_h100"}}}', 'raw': None}, {'tag': 'POST /mx/user/usershow(sign)', 'code': 200, 'errno': 10, 'errmsg': '参数非法', 'keys': [], 'json': '{"errno":10,"errmsg":"参数非法","data":[]}', 'raw': None}, {'tag': 'POST /mx/user/usershow(num)', 'code': 200, 'errno': 10, 'errmsg': '参数非法', 'keys': [], 'json': '{"errno":10,"errmsg":"参数非法","data":[]}', 'raw': None}, {'tag': 'POST /mx/admin/userinfo(num1)', 'code': 200, 'errno': 10, 'errmsg': '无操作权限', 'keys': [], 'json': '{"errno":10,"errmsg":"无操作权限","data":[]}', 'raw': None}]}} data: None

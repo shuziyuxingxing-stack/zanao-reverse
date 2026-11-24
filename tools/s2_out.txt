@@ -1,0 +1,33 @@
+     ____
+    / _  |   Frida 17.24.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
+Spawning `com.comingx.zanao`...
+Spawned `com.comingx.zanao`. Resuming main thread!
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'t': 'resp', 'url': None, 'args': ['on']}} data: None
+message: {'type': 'send', 'payload': {'t': 'resp', 'url': None, 'args': ['']}} data: None
+message: {'type': 'send', 'payload': {'t': 'req', 'url': 'http://api.app.zanao.com/app/devicereg', 'auth': 'has-token'}} data: None
+message: {'type': 'send', 'payload': {'t': 'resp', 'url': 'http://api.app.zanao.com/app/devicereg', 'args': ['{"status_code":200,"header":{"connection":"keep-alive","content-type":"application\\/json;charset=utf-8","date":"Wed, 11 Nov 2026 16:04:01 GMT","transfer-encoding":"chunked","vary":"Accept-Encoding"},"data":"{\\"errno\\":0,\\"errmsg\\":\\"\\",\\"data\\":{\\"account_login\\":false,\\"wx_login\\":true,\\"wx_mp_login\\":false}}"}']}} data: None
+message: {'type': 'send', 'payload': {'t': 'req', 'url': 'http://api.app.zanao.com/app/checkupgrade', 'auth': 'has-token'}} data: None
+message: {'type': 'send', 'payload': {'t': 'resp', 'url': 'http://api.app.zanao.com/app/checkupgrade', 'args': ['{"status_code":200,"header":{"connection":"keep-alive","content-type":"application\\/json;charset=utf-8","date":"Wed, 11 Nov 2026 16:04:02 GMT","transfer-encoding":"chunked","vary":"Accept-Encoding"},"data":"{\\"errno\\":0,\\"errmsg\\":\\"\\",\\"data\\":{\\"nt_need_upgrade\\":false,\\"nt_version_info\\":[],\\"hb_need_upgrade\\":false,\\"hb_version_info\\":[]}}"}']}} data: None
+message: {'type': 'send', 'payload': {'t': 'req', 'url': 'http://api.app.zanao.com/app/checkuser', 'auth': 'has-token'}} data: None
+message: {'type': 'send', 'payload': {'t': 'resp', 'url': 'http://api.app.zanao.com/app/checkuser', 'args': ['{"status_code":200,"header":{"connection":"keep-alive","content-type":"text\\/html; charset=UTF-8","date":"Wed, 11 Nov 2026 16:04:02 GMT","transfer-encoding":"chunked","vary":"Accept-Encoding","x-sc-encrypt":"1"},"data":"{\\"errno\\":0,\\"errmsg\\":\\"\\",\\"data\\":{\\"community_info\\":{\\"community_info\\":\\"\\\\u4f60\\\\u6709100+\\\\u4f4d\\\\u5fae\\\\u4fe1\\\\u597d\\\\u53cb\\\\u5728\\\\u96c6\\\\u5e02\\\\u53d1\\\\u5e03\\\\u4e8c\\\\u624b\\\\u3001\\\\u6c42\\\\u52a9\\\\u3001\\\\u4ea4\\\\u53cb\\\\u3001\\\\u62db\\\\u8058\\\\u7b49\\\\u4fe1\\\\u606f\\",\\"community_name\\":\\"\\\\u8d5e\\\\u5662\\\\u6821\\\\u56ed\\\\u96c6\\\\u5e02\\\\u00b7\\\\u4e2d\\\\u5927\\\\u7ad9\\",\\"school_name\\":\\']}} data: None
+message: {'type': 'send', 'payload': {'t': 'resp', 'url': 'http://api.app.zanao.com/app/checkuser', 'args': ['']}} data: None
+message: {'type': 'send', 'payload': {'t': 'resp', 'url': 'http://api.app.zanao.com/app/checkuser', 'args': ['']}} data: None
+message: {'type': 'send', 'payload': {'t': 'resp', 'url': 'http://api.app.zanao.com/app/checkuser', 'args': ['']}} data: None
+message: {'type': 'send', 'payload': {'t': 'req', 'url': 'http://api.app.zanao.com/', 'auth': 'has-token'}} data: None
+message: {'type': 'send', 'payload': {'t': 'req', 'url': 'http://api.app.zanao.com/msg/unum', 'auth': 'has-token'}} data: None
+message: {'type': 'send', 'payload': {'t': 'fail', 'url': 'http://api.app.zanao.com/msg/unum', 'args': ['provider_unsupported']}} data: None
+message: {'type': 'send', 'payload': {'t': 'req', 'url': 'http://api.app.zanao.com/thread/toplist', 'auth': 'has-token'}} data: None
+message: {'type': 'send', 'payload': {'t': 'req', 'url': 'http://api.app.zanao.com/thread/hot', 'auth': 'has-token'}} data: None
+message: {'type': 'send', 'payload': {'t': 'req', 'url': 'http://api.app.zanao.com/thread/v2/list', 'auth': 'has-token'}} data: None
+message: {'type': 'send', 'payload': {'t': 'req', 'url': 'http://api.app.zanao.com/app/devicereg', 'auth': 'has-token'}} data: None
+message: {'type': 'send', 'payload': {'t': 'req', 'url': 'http://api.app.zanao.com/mx/tag/v1/hot', 'auth': 'has-token'}} data: None

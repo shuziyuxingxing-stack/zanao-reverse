@@ -1,0 +1,15 @@
+     ____
+    / _  |   Frida 17.24.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
+Spawning `com.comingx.zanao`...
+Spawned `com.comingx.zanao`. Resuming main thread!
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'t': 'results', 'list': [{'path': '/thread/admin/delete', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/thread/admin/top', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/thread/admin/check', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/thread/admin/hotchange', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/thread/admin/showchange', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/thread/admin/paychange', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/thread/admin/risklevelset', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/thread/admin/comstatuschange', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/thread/admin/auditremarkset', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/thread/admin/imgchange', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/thread/admin/revert', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/thread/admin/commentchange', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/mx/admin/delete', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/mx/admin/check', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/mx/admin/top', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/mx/admin/likechange', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/mx/admin/commentchange', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/mx/admin/paylevelset', 'errno': 10, 'errmsg': '无操作权限', 'raw': None, 'verdict': 'GATED'}, {'path': '/mx/admin/risklevelset', 'errno': 10, 'errmsg': 'uid非法', 'raw': None, 'verdict': 'GATED'}, {'path': '/mx/admin/userforbid', 'errno': 10, 'errmsg': 'uid非法', 'raw': None, 'verdict': 'GATED'}, {'path': '/mx/admin/userreset', 'errno': 10, 'errmsg': 'uid非法', 'raw': None, 'verdict': 'GATED'}]}} data: None

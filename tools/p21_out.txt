@@ -1,0 +1,15 @@
+     ____
+    / _  |   Frida 17.24.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 127.0.0.1:39999 (id=socket@127.0.0.1:39999)
+Spawning `com.comingx.zanao`...
+Spawned `com.comingx.zanao`. Resuming main thread!
+[Remote::com.comingx.zanao ]-> message: {'type': 'send', 'payload': {'t': 'results', 'list': [{'step': 'thread/info', 'tid': '2185825382', 'nickname': '烧鸭饭大王', 'uid_blob_len': 108}, {'step': 'decrypt', 'result': {'unhash': '', 'unhashAppResult': '', 'hash': 'b9h+6yhVWWmvcgMbkklq1BD58yeB9nhm38p2Z0SFgxzyOPffToMlJ38mK2mBvVE/s9Fl/nEcEYJMAuz2Ec/oOyhmAuwu1qZ4v9zr1W6aPrhQiwV++OfRfBZW301FkolsLsO6Sl5wWrVq9ORIrYAKug==', 'unhashText_k': '��������\x14�'}}, {'step': 'mx/usershow(blob)', 'errno': 10, 'errmsg': '参数非法', 'json': '{"errno":10,"errmsg":"参数非法","data":[]}', 'raw': None}, {'step': 'mx/usershow(plain)', 'skip': 'no uid'}, {'step': 'mx/admin/userinfo(blob)', 'errno': 10, 'errmsg': '无操作权限', 'json': '{"errno":10,"errmsg":"无操作权限","data":[]}', 'raw': None}, {'step': 'mx/admin/userinfo(plain)', 'skip': 'no uid'}]}} data: None
